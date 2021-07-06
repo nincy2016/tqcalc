@@ -1,0 +1,122 @@
+﻿#spellname{
+font-size:10pt;color:#ffffff;font-weight:bold;font-family:Times New Roman,"宋体"
+}
+#pointsremaining{
+font-family:Times New Roman,"宋体";font-size:9pt;color:#ffffff;text-align:center
+}
+#masteryname {
+color:#ffa500;font-size:14pt;font-weight:bold
+}
+#atttitle {
+font-weight:bold;font-size:10pt
+}
+#health {
+color:#ff0000;text-align:right
+}
+#energy {
+color:blue;text-align:right
+}
+#int {
+color:#ffffff;text-align:right
+}
+#dex {
+color:#ffffff;text-align:right
+}
+#str {
+color:#ffffff;text-align:right
+}
+#pressadd {
+color:#00ff00;font-size:9pt
+}
+#statstable {
+border:solid 1px #24b300
+}
+#earth {
+border:solid 1px #7b7252
+}
+#spirit {
+border:solid 1px #7b7252
+}
+#rogue {
+border:solid 1px #7b7252
+}
+#storm {
+border:solid 1px #7b7252
+}
+#nature {
+border:solid 1px #7b7252
+}
+#hunting {
+border:solid 1px #7b7252
+}
+#defense {
+border:solid 1px #7b7252
+}
+#dream{
+border:solid 1px #7b7252
+}
+#warfare {
+border:solid 1px #7b7252
+}
+#rune{
+border:solid 1px #7b7252
+}
+#spells{
+color:#ffffff;width:80%;font-size:9pt;font-family:Times New Roman,"宋体";width:95%;padding:10px
+}
+#pageheader{
+font-family:Times New Roman,"宋体";font-weight:bolder;font-size:15pt;color:#ffa500
+}
+#specialdesc{
+color:#C0C0BE;font-size:9pt
+}
+#spelldesc{
+font-size:9pt;color:#ffffff;font-family:Times New Roman,"宋体"
+}
+#currentspell{
+font-size:9pt;font-family:Times New Roman,"宋体";color:#ffffff
+}
+#nextspell{
+font-size:9pt;font-family:Times New Roman,"宋体";color:#999999
+}
+#spelllistingheader{
+font-size:10pt;color:#ffffff;font-weight:bold;font-family:Times New Roman,"宋体"
+}
+#currentranklevel{
+font-size:9pt;font-family:Times New Roman,"宋体";color:#fff52b
+}
+#tip{
+width:250px;position:absolute;border:1px solid #c9a03b;background-color:#1c1911;padding:5px;filter:alpha(opacity=80)
+}
+#prereq{
+color:#40ff40;font-size:9pt;font-family:Times New Roman,"宋体"
+}
+#nextranklevel{
+font-size:9pt;font-family:Times New Roman,"宋体";color:#fff52b
+}
+td{
+font-size:9pt;color:#d7fbb0;font-family:Times New Roman,"宋体"
+}
+.b40pt{
+background-color:#48422b;color:#ffffff;border-top:1px solid #d7fbb0;border-left:1px solid #d7fbb0;border-right:1px solid #d7fbb0;border-bottom:none
+}
+.b32pt{
+background-color:#48422b;color:#ffffff;border-left:1px solid #d7fbb0;border-right:1px solid #d7fbb0;border-top:none;border-bottom:none
+}
+.b24pt{
+background-color:#48422b;color:#ffffff;border-left:1px solid #d7fbb0;border-right:1px solid #d7fbb0;border-top:none;border-bottom:none
+}
+.b16pt{
+background-color:#48422b;color:#ffffff;border-left:1px solid #d7fbb0;border-right:1px solid #d7fbb0;border-top:none;border-bottom:none
+}
+.b10pt{
+background-color:#48422b;color:#ffffff;border-left:1px solid #d7fbb0;border-right:1px solid #d7fbb0;border-top:none;border-bottom:none
+}
+.b4pt{
+background-color:#48422b;color:#ffffff;border-left:1px solid #d7fbb0;border-right:1px solid #d7fbb0;border-top:none;border-bottom:none
+}
+.b1pt{
+background-color:#48422b;border-left:1px solid #d7fbb0;border-right:1px solid #d7fbb0;border-top:none;color:#ffffff
+}
+#button{
+}

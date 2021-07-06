@@ -1,0 +1,122 @@
+﻿#spellname{
+font-size:10pt;color:#FFFFFF;font-weight:bold;font-family:Times New Roman,"宋体"
+}
+#pointsremaining{
+font-family:Times New Roman,"宋体";font-size:9pt;color:#FFFFFF;text-align:center
+}
+#masteryname{
+color:#FFA500;font-size:14pt;font-weight:bold
+}
+#atttitle{
+font-weight:bold;font-size:10pt
+}
+#health{
+color:#FF0000;text-align:right
+}
+#energy{
+color:blue;text-align:right
+}
+#int{
+color:#FFFFFF;text-align:right
+}
+#dex{
+color:#FFFFFF;text-align:right
+}
+#str{
+color:#FFFFFF;text-align:right
+}
+#pressadd{
+color:#00FF00;font-size:9pt
+}
+#statstable{
+border:solid 1px #7B7252
+}
+#earth{
+border:solid 1px #7B7252
+}
+#spirit{
+border:solid 1px #7B7252
+}
+#rogue{
+border:solid 1px #7B7252
+}
+#storm{
+border:solid 1px #7B7252
+}
+#nature{
+border:solid 1px #7B7252
+}
+#hunting{
+border:solid 1px #7B7252
+}
+#defense{
+border:solid 1px #7B7252
+}
+#dream{
+border:solid 1px #7b7252
+}
+#warfare{
+border:solid 1px #7B7252
+}
+#rune{
+border:solid 1px #7b7252
+}
+#spells{
+color:#FFFFFF;width:80%;font-size:9pt;font-family:Times New Roman,"宋体";width:95%;padding:10px
+}
+#pageheader{
+font-family:Times New Roman,"宋体";font-weight:bolder;font-size:15pt;color:#FFA500
+}
+#specialdesc{
+color:#C0C0BE;font-size:9pt
+}
+#spelldesc{
+font-size:9pt;color:#FFFFFF;font-family:Times New Roman,"宋体"
+}
+#currentspell{
+font-size:9pt;font-family:Times New Roman,"宋体";color:#FFFFFF
+}
+#nextspell{
+font-size:9pt;font-family:Times New Roman,"宋体";color:#999999
+}
+#spelllistingheader{
+font-size:10pt;color:#FFFFFF;font-weight:bold;font-family:Times New Roman,"宋体"
+}
+#currentranklevel{
+font-size:9pt;font-family:Times New Roman,"宋体";color:#FFF52B
+}
+#tip{
+width:250px;position:absolute;border:1px solid #C9A03B;background-color:#1C1911;padding:5px;filter:alpha(opacity=90)
+}
+#prereq{
+color:#40FF40;font-size:9pt;font-family:Times New Roman,"宋体"
+}
+#nextranklevel{
+font-size:9pt;font-family:Times New Roman,"宋体";color:#FFF52B
+}
+td{
+font-size:9pt;color:#FFFFFF;font-family:Times New Roman,"宋体"
+}
+.b40pt{
+background-color:#48422B;color:#FFFFFF;border-top:1px solid #FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;border-bottom:none
+}
+.b32pt{
+background-color:#48422B;color:#FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;border-top:none;border-bottom:none
+}
+.b24pt{
+background-color:#48422B;color:#FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;border-top:none;border-bottom:none
+}
+.b16pt{
+background-color:#48422B;color:#FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;border-top:none;border-bottom:none
+}
+.b10pt{
+background-color:#48422B;color:#FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;border-top:none;border-bottom:none
+}
+.b4pt{
+background-color:#48422B;color:#FFFFFF;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;border-top:none;border-bottom:none
+}
+.b1pt{
+background-color:#48422B;border-left:1px solid #FFFFFF;border-right:1px solid #FFFFFF;border-top:none;color:#FFFFFF
+}
+#button{
+}

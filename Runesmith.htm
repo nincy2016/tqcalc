@@ -1,0 +1,453 @@
+﻿<HTML><HEAD><TITLE>符文铁匠</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8"></HEAD>
+<SCRIPT src="Share_files/control.js"></SCRIPT>
+<SCRIPT src="DefenseMastery_files/defense.js"></SCRIPT>
+<SCRIPT src="RuneMastery_files/rune.js"></SCRIPT>
+<LINK href="Share_files/main.css" type=text/css rel=stylesheet>
+<SCRIPT>
+function PageStart() {
+    SetPage(5)
+    SetPage(10)
+}
+var _MasteryName = "Runesmith"
+var _Mastery1 = 5
+var _Mastery2 = 10
+var _PreSet1 = ""
+var _PreSet2 = ""
+</SCRIPT>
+
+<body bgcolor="#775915" text=#000000 vLink=#0000ff aLink=#0000ff link=#0000ff onload=PageStart()>
+    <div align="center">
+	    <table cellpadding="0" cellspacing="0" width="1280" height="720">
+            <!-- MSTableType="layout" -->
+            <tr>
+                <td align="center" height="720" width="1280" valign="top">
+                    <div align="center">
+                        <center>
+                            <table cellpadding="0" cellspacing="0" width="1280" height="52">
+                                <!-- MSTableType="layout" -->
+                                <tr>
+                                    <td height="52" align="center" valign="bottom" width="1280">
+                                        <img border="0" src="Preface_files/TQAEA%20frontpage%20top%20he.png" width="1280" height="52"></td>
+                                </tr>
+                            </table>
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr> 
+                                    <td width="100%" bgcolor="#000000">
+                                        <table border="0" cellspacing="0" width="100%" cellpadding="6" height="620">
+                                            <tr bgcolor="#F5F7EE"> 
+                                                <td width="100%" height="618" bgcolor="#7B7252">
+                                                    <table width="100%" height="618" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td height="618" valign="top"><DIV align="left"> 
+                                                                <TABLE cellSpacing=0 cellPadding=0 width=1266 border=0 align=center>
+                                                                    <tr> 
+                                                                        <td width="100%" bgcolor="#7B7252">
+                                                                            <CENTER>
+<TABLE width="95%" align=center border=0><TR>
+<TD vAlign=top>
+<DIV id=pageheader>符文铁匠（<SCRIPT>document.write(Mastery[5].masteryname)</SCRIPT>+<SCRIPT>document.write(Mastery[10].masteryname)</SCRIPT>）	<font size=2><A href="index.htm">返回目录</A></FONT></DIV>
+<BR>
+
+<DIV><FONT size=2 color=#d4e1e3> 选择 + 
+<select name="num5" onchange="GetSkillBuff(5);return false" id="num5" >
+       <option value="0" selected="selected">0</option>
+       <option value="1">1</option>
+       <option value="2">2</option>
+       <option value="3">3</option>
+       <option value="4">4</option>
+       <option value="5">5</option>
+       <option value="6">6</option>
+       <option value="7">7</option>
+       <option value="8">8</option>
+       <option value="9">9</option>
+       <option value="10">10</option>
+       <option value="11">11</option>
+       <option value="12">12</option>
+       <option value="13">13</option>
+       <option value="14">14</option>
+       <option value="15">15</option>
+</select>
+ <SCRIPT>document.write(Mastery[5].masteryname)</SCRIPT>技能</FONT>
+</DIV>
+
+<TABLE id=defense cellSpacing=0 cellPadding=0 border=0><TR>
+<TD class=b40pt id=b40pt_5 onclick=AddSkillLevel(5,event.button,40) vAlign=top align=middle>40</TD>
+<TD></TD>
+<TD onmousedown=AddPoint(event.shiftKey,5,event.button,20) onmouseover=DrawSpell(5,20) onmouseout=KillTip() vAlign=center align=middle><IMG src="DefenseMastery_files/21.png">
+<DIV id=spell_5_21></DIV></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD onmousedown=AddPoint(event.shiftKey,5,event.button,21) onmouseover=DrawSpell(5,21) onmouseout=KillTip() vAlign=center align=middle><IMG src="DefenseMastery_files/22.png">
+<DIV id=spell_5_22></DIV></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR>
+<TD class=b32pt id=b32pt_5 onclick=AddSkillLevel(5,event.button,32) vAlign=top align=middle>32</TD>
+<TD></TD>
+<TD></TD>
+<TD vAlign=bottom><IMG src="Gif_files/topright_grey.gif"></TD>
+<TD onmousedown=AddPoint(event.shiftKey,5,event.button,17) onmouseover=DrawSpell(5,17) onmouseout=KillTip() vAlign=center align=middle><IMG src="DefenseMastery_files/18.gif">
+<DIV id=spell_5_18></DIV></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD onmousedown=AddPoint(event.shiftKey,5,event.button,18) onmouseover=DrawSpell(5,18) onmouseout=KillTip() vAlign=center align=middle><IMG src="DefenseMastery_files/19.gif">
+<DIV id=spell_5_19></DIV></TD>
+<TD><IMG src="DefenseMastery_files/blank.gif"></TD>
+<TD onmousedown=AddPoint(event.shiftKey,5,event.button,19) onmouseover=DrawSpell(5,19) onmouseout=KillTip() vAlign=center align=middle><IMG src="DefenseMastery_files/20.gif">
+<DIV id=spell_5_20></DIV></TD></TR>
+<TR>
+<TD class=b24pt id=b24pt_5 onclick=AddSkillLevel(5,event.button,24) vAlign=top align=middle>24</TD>
+<TD vAlign=bottom><IMG src="Gif_files/topright_grey.gif"></TD>
+<TD onmousedown=AddPoint(event.shiftKey,5,event.button,14) onmouseover=DrawSpell(5,14) onmouseout=KillTip() vAlign=center align=middle><IMG src="DefenseMastery_files/15.gif">
+<DIV id=spell_5_15></DIV></TD>
+<TD background="Gif_files/line_grey.gif"><IMG src="Gif_files/line_grey.gif"></TD>
+<TD></TD>
+<TD vAlign=bottom><IMG src="Gif_files/topright_grey.gif"></TD>
+<TD onmousedown=AddPoint(event.shiftKey,5,event.button,15) onmouseover=DrawSpell(5,15) onmouseout=KillTip() vAlign=center align=middle><IMG src="DefenseMastery_files/16.gif">
+<DIV id=spell_5_16></DIV></TD>
+<TD vAlign=bottom><IMG src="Gif_files/topright_grey.gif"></TD>
+<TD onmousedown=AddPoint(event.shiftKey,5,event.button,16) onmouseover=DrawSpell(5,16) onmouseout=KillTip() vAlign=center align=middle><IMG src="DefenseMastery_files/17.gif">
+<DIV id=spell_5_17></DIV></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR>
+<TD class=b16pt id=b16pt_5 onclick=AddSkillLevel(5,event.button,16) vAlign=top align=middle>16</TD>
+<TD background="Gif_files/line_grey.gif"><IMG src="Gif_files/line_grey.gif"></TD>
+<TD></TD>
+<TD background="Gif_files/line_grey.gif"><IMG src="Gif_files/t_grey.gif"></TD>
+<TD onmousedown=AddPoint(event.shiftKey,5,event.button,11) onmouseover=DrawSpell(5,11) onmouseout=KillTip() vAlign=center align=middle><IMG src="DefenseMastery_files/12.gif">
+<DIV id=spell_5_12></DIV></TD>
+<TD background="Gif_files/line_grey.gif"><IMG src="Gif_files/line_grey.gif"></TD>
+<TD></TD>
+<TD background="Gif_files/line_grey.gif"><IMG src="Gif_files/line_grey.gif"></TD>
+<TD></TD>
+<TD vAlign=bottom><IMG src="Gif_files/topright_grey.gif"></TD>
+<TD onmousedown=AddPoint(event.shiftKey,5,event.button,12) onmouseover=DrawSpell(5,12) onmouseout=KillTip() vAlign=center align=middle><IMG src="DefenseMastery_files/13.gif">
+<DIV id=spell_5_13></DIV></TD>
+<TD></TD>
+<TD onmousedown=AddPoint(event.shiftKey,5,event.button,13) onmouseover=DrawSpell(5,13) onmouseout=KillTip() vAlign=center align=middle><IMG src="DefenseMastery_files/14.gif">
+<DIV id=spell_5_14></DIV></TD></TR>
+<TR>
+<TD class=b10pt id=b10pt_5 onclick=AddSkillLevel(5,event.button,10) vAlign=top align=middle>10</TD>
+<TD background="Gif_files/line_grey.gif"><IMG src="Gif_files/t_grey.gif"></TD>
+<TD onmousedown=AddPoint(event.shiftKey,5,event.button,8) onmouseover=DrawSpell(5,8) onmouseout=KillTip() vAlign=center align=middle><IMG src="DefenseMastery_files/9.gif">
+<DIV id=spell_5_9></DIV></TD>
+<TD background="Gif_files/line_grey.gif"><IMG src="Gif_files/line_grey.gif"></TD>
+<TD></TD>
+<TD background="Gif_files/line_grey.gif"><IMG src="Gif_files/t_grey.gif"></TD>
+<TD onmousedown=AddPoint(event.shiftKey,5,event.button,9) onmouseover=DrawSpell(5,9) onmouseout=KillTip() vAlign=center align=middle><IMG src="DefenseMastery_files/10.gif">
+<DIV id=spell_5_10></DIV></TD>
+<TD vAlign=top><IMG src="Gif_files/bottomright_grey.gif"></TD>
+<TD onmousedown=AddPoint(event.shiftKey,5,event.button,10) onmouseover=DrawSpell(5,10) onmouseout=KillTip() vAlign=center align=middle><IMG src="DefenseMastery_files/11.gif">
+<DIV id=spell_5_11></DIV></TD>
+<TD background="Gif_files/line_grey.gif"><IMG src="Gif_files/line_grey.gif"></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR>
+<TD class=b4pt id=b4pt_5 onclick=AddSkillLevel(5,event.button,4) vAlign=top align=middle>4</TD>
+<TD vAlign=top><IMG src="Gif_files/bottomright_grey.gif"></TD>
+<TD onmousedown=AddPoint(event.shiftKey,5,event.button,4) onmouseover=DrawSpell(5,4) onmouseout=KillTip() vAlign=center align=middle><IMG src="DefenseMastery_files/5.gif">
+<DIV id=spell_5_5></DIV></TD>
+<TD vAlign=top><IMG src="Gif_files/bottomright_grey.gif"></TD>
+<TD onmousedown=AddPoint(event.shiftKey,5,event.button,5) onmouseover=DrawSpell(5,5) onmouseout=KillTip() vAlign=center align=middle><IMG src="DefenseMastery_files/6.gif">
+<DIV id=spell_5_6></DIV></TD>
+<TD background="Gif_files/line_grey.gif"><IMG src="Gif_files/line_grey.gif"></TD>
+<TD></TD>
+<TD></TD>
+<TD onmousedown=AddPoint(event.shiftKey,5,event.button,6) onmouseover=DrawSpell(5,6) onmouseout=KillTip() vAlign=center align=middle><IMG src="DefenseMastery_files/7.gif">
+<DIV id=spell_5_7></DIV></TD>
+<TD background="Gif_files/line_grey.gif"><IMG src="Gif_files/line_grey.gif"></TD>
+<TD></TD>
+<TD></TD>
+<TD onmousedown=AddPoint(event.shiftKey,5,event.button,7) onmouseover=DrawSpell(5,7) onmouseout=KillTip() vAlign=center align=middle><IMG src="DefenseMastery_files/8.gif">
+<DIV id=spell_5_8></DIV></TD></TR>
+<TR>
+<TD class=b1pt id=b1pt_5 onclick=AddSkillLevel(5,event.button,1) vAlign=top align=middle>1</TD>
+<TD></TD>
+<TD onmousedown=AddPoint(event.shiftKey,5,event.button,0) onmouseover=DrawSpell(5,0) onmouseout=KillTip() vAlign=center align=middle><IMG src="DefenseMastery_files/1.gif">
+<DIV id=spell_5_1></DIV></TD>
+<TD></TD>
+<TD></TD>
+<TD vAlign=top><IMG src="Gif_files/bottomright_grey.gif"></TD>
+<TD onmousedown=AddPoint(event.shiftKey,5,event.button,1) onmouseover=DrawSpell(5,1) onmouseout=KillTip() vAlign=center align=middle><IMG src="DefenseMastery_files/2.gif">
+<DIV id=spell_5_2></DIV></TD>
+<TD></TD>
+<TD></TD>
+<TD vAlign=top><IMG src="Gif_files/bottomright_grey.gif"></TD>
+<TD onmousedown=AddPoint(event.shiftKey,5,event.button,2) onmouseover=DrawSpell(5,2) onmouseout=KillTip() vAlign=center align=middle><IMG src="DefenseMastery_files/3.gif">
+<DIV id=spell_5_3></DIV></TD>
+<TD></TD>
+<TD onmousedown=AddPoint(event.shiftKey,5,event.button,3) onmouseover=DrawSpell(5,3) onmouseout=KillTip() vAlign=center align=middle><IMG src="DefenseMastery_files/4.gif">
+<DIV id=spell_5_4></DIV></TD></TR>
+<TR>
+<TD id=button><IMG onmousedown=AddSkillLevel(5,event.button) id=button5 onmouseover=DrawSkill(5,this) onmouseout=KillTip() src="DefenseMastery_files/button.gif"></TD>
+<TD colSpan=12><A onclick="SetPage(5,true);return false" href="javascript:void(0);">重置专精</A>
+<DIV id=pointsremaining_5></DIV>
+<DIV id=masterypoints_5></DIV></TD></TR></TABLE><br>
+
+<DIV><FONT size=2 color=#FAC0E4> 选择 + 
+<select name="num10" onchange="GetSkillBuff(10);return false" id="num10" >
+       <option value="0" selected="selected">0</option>
+       <option value="1">1</option>
+       <option value="2">2</option>
+       <option value="3">3</option>
+       <option value="4">4</option>
+       <option value="5">5</option>
+       <option value="6">6</option>
+       <option value="7">7</option>
+       <option value="8">8</option>
+       <option value="9">9</option>
+       <option value="10">10</option>
+       <option value="11">11</option>
+       <option value="12">12</option>
+       <option value="13">13</option>
+       <option value="14">14</option>
+       <option value="15">15</option>
+</select>
+ <SCRIPT>document.write(Mastery[10].masteryname)</SCRIPT>技能</FONT>
+</DIV>
+
+<TABLE id=rune cellSpacing=0 cellPadding=0 border=0><TR>
+	<TD class=b40pt id=b40pt_10 onclick=AddSkillLevel(10,event.button,40) vAlign=top align=middle>40</TD>
+	<TD></TD>
+	<TD></TD>
+	<TD></TD>
+	<TD></TD>
+	<TD></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,21) onmouseover=DrawSpell(10,21) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/22.png">
+		<DIV id=spell_10_22></DIV></TD>
+	<TD></TD>
+	<TD></TD>
+	<TD vAlign=bottom><IMG src="Gif_files/topright_grey.gif"></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,22) onmouseover=DrawSpell(10,22) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/23.png">
+		<DIV id=spell_10_23></DIV></TD>
+	<TD></TD>
+	<TD></TD>
+	</TR>
+
+	<TR>
+	<TD class=b32pt id=b32pt_10 onclick=AddSkillLevel(10,event.button,32) vAlign=top align=middle>32</TD>
+	<TD vAlign=bottom><IMG src="Gif_files/topright_grey.gif"></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,17) onmouseover=DrawSpell(10,17) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/18.png">
+		<DIV id=spell_10_18></DIV></TD>
+	<TD></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,18) onmouseover=DrawSpell(10,18) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/19.png">
+		<DIV id=spell_10_19></DIV></TD>
+	<TD></TD>
+	<TD></TD>
+	<TD vAlign=bottom><IMG src="Gif_files/topright_grey.gif"></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,19) onmouseover=DrawSpell(10,19) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/20.png">
+		<DIV id=spell_10_20></DIV></TD>
+	<TD background="Gif_files/line_grey.gif"></TD>
+	<TD></TD>
+	<TD vAlign=bottom><IMG src="Gif_files/topright_grey.gif"></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,20) onmouseover=DrawSpell(10,20) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/21.png">
+		<DIV id=spell_10_21></DIV></TD>
+	</TR>
+
+	<TR>
+	<TD class=b24pt id=b24pt_10 onclick=AddSkillLevel(10,event.button,24) vAlign=top align=middle>24</TD>
+	<TD background="Gif_files/line_grey.gif"></TD>
+	<TD></TD>
+	<TD></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,14) onmouseover=DrawSpell(10,14) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/15.png">
+		<DIV id=spell_10_15></DIV></TD>
+	<TD></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,15) onmouseover=DrawSpell(10,15) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/16.png">
+		<DIV id=spell_10_16></DIV></TD>
+	<TD background="Gif_files/line_grey.gif"></TD>
+	<TD></TD>
+	<TD background="Gif_files/line_grey.gif"><IMG src="Gif_files/t_grey.gif"></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,16) onmouseover=DrawSpell(10,16) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/17.png">
+		<DIV id=spell_10_17></DIV></TD>
+	<TD background="Gif_files/line_grey.gif"></TD>
+	<TD></TD>
+	</TR>
+
+	<TR>
+	<TD class=b16pt id=b16pt_10 onclick=AddSkillLevel(10,event.button,16) vAlign=top align=middle>16</TD>
+	<TD background="Gif_files/line_grey.gif"><IMG src="Gif_files/t_grey.gif"></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,11) onmouseover=DrawSpell(10,11) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/12.png">
+		<DIV id=spell_10_12></DIV></TD>
+	<TD></TD>
+	<TD></TD>
+	<TD vAlign=bottom><IMG src="Gif_files/topright_grey.gif"></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,12) onmouseover=DrawSpell(10,12) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/13.png">
+		<DIV id=spell_10_13></DIV></TD>
+	<TD vAlign=top><IMG src="Gif_files/bottomright_grey.gif"></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,13) onmouseover=DrawSpell(10,13) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/14.png">
+		<DIV id=spell_10_14></DIV></TD>
+	<TD background="Gif_files/line_grey.gif"></TD>
+	<TD></TD>
+	<TD background="Gif_files/line_grey.gif"></TD>
+	<TD></TD>
+	</TR>
+
+	<TR>
+	<TD class=b10pt id=b10pt_10 onclick=AddSkillLevel(10,event.button,10) vAlign=top align=middle>10</TD>
+	<TD background="Gif_files/line_grey.gif"></TD>
+	<TD></TD>
+	<TD vAlign=bottom><IMG src="Gif_files/topright_grey.gif"></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,7) onmouseover=DrawSpell(10,7) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/8.png">
+		<DIV id=spell_10_8></DIV></TD>
+	<TD vAlign=top><IMG src="Gif_files/bottomright_grey.gif"></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,8) onmouseover=DrawSpell(10,8) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/9.png">
+		<DIV id=spell_10_9></DIV></TD>
+	<TD vAlign=bottom><IMG src="Gif_files/topright_grey.gif"></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,9) onmouseover=DrawSpell(10,9) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/10.png">
+		<DIV id=spell_10_10></DIV></TD>
+	<TD background="Gif_files/line_grey.gif"></TD>
+	<TD></TD>
+	<TD vAlign=top><IMG src="Gif_files/bottomright_grey.gif"></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,10) onmouseover=DrawSpell(10,10) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/11.png">
+		<DIV id=spell_10_11></DIV></TD>
+	</TR>
+
+	<TR>
+	<TD class=b4pt id=b4pt_10 onclick=AddSkillLevel(10,event.button,4) vAlign=top align=middle>4</TD>
+	<TD background="Gif_files/line_grey.gif"><IMG src="Gif_files/t_grey.gif"></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,3) onmouseover=DrawSpell(10,3) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/4.png">
+		<DIV id=spell_10_4></DIV></TD>
+	<TD vAlign=top><IMG src="Gif_files/bottomright_grey.gif"></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,4) onmouseover=DrawSpell(10,4) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/5.png">
+		<DIV id=spell_10_5></DIV></TD>
+	<TD></TD>
+	<TD></TD>
+	<TD vAlign=top><IMG src="Gif_files/bottomright_grey.gif"></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,5) onmouseover=DrawSpell(10,5) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/6.png">
+		<DIV id=spell_10_6></DIV></TD>
+	<TD vAlign=top><IMG src="Gif_files/bottomright_grey.gif"></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,6) onmouseover=DrawSpell(10,6) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/7.png">
+		<DIV id=spell_10_7></DIV></TD>
+	<TD></TD>
+	<TD></TD>
+	</TR>
+
+	<TR>
+	<TD class=b1pt id=b1pt_10 onclick=AddSkillLevel(10,event.button,1) vAlign=top align=middle>1</TD>
+	<TD vAlign=top><IMG src="Gif_files/bottomright_grey.gif"></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,0) onmouseover=DrawSpell(10,0) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/1.png">
+		<DIV id=spell_10_1></DIV></TD>
+	<TD></TD>
+	<TD></TD>
+	<TD></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,1) onmouseover=DrawSpell(10,1) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/2.png">
+		<DIV id=spell_10_2></DIV></TD>
+	<TD></TD>
+	<TD></TD>
+	<TD></TD>
+	<TD></TD>
+	<TD></TD>
+	<TD onmousedown=AddPoint(event.shiftKey,10,event.button,2) onmouseover=DrawSpell(10,2) onmouseout=KillTip() vAlign=center align=middle><IMG src="RuneMastery_files/3.png">
+		<DIV id=spell_10_3></DIV></TD></TR>
+	<TR>
+	<TD id=button><IMG onmousedown=AddSkillLevel(10,event.button) id=button10 onmouseover=DrawSkill(10,this) onmouseout=KillTip() src="RuneMastery_files/button.png"></TD>
+	<TD colSpan=12><A onclick="SetPage(10,true);return false" href="javascript:void(0);">重置专精</A> <DIV id=pointsremaining_10></DIV>
+	<DIV id=masterypoints_10></DIV>
+	</TD>
+	</TR>
+</TABLE>
+</TD>
+<TD vAlign=top width="100%" ?><BR><BR>
+<DIV id=stats style="PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px">
+<TABLE id=statstable cellSpacing=1 cellPadding=0 width=150 border=0><TR>
+<TD colSpan=2>
+<DIV id=atttitle>基本属性：</DIV></TD></TR>
+<TR>
+<TD>生命：</TD>
+<TD>
+<DIV id=health>0</DIV></TD></TR>
+<TR>
+<TD>法力：</TD>
+<TD>
+<DIV id=energy>0</DIV></TD></TR>
+<TR>
+<TD>力量：</TD>
+<TD>
+<DIV id=str>0</DIV></TD></TR>
+<TR>
+<TD>智力：</TD>
+<TD>
+<DIV id=int>0</DIV></TD></TR>
+<TR>
+<TD>敏捷：</TD>
+<TD>
+<DIV id=dex>0</DIV></TD></TR></TR></TABLE></DIV>
+
+<DIV>
+&ensp;&thinsp;<select name="modeset" onchange="GetModeSet();return false" id="modeset" >
+       <option value="0" selected="selected">移动端设置&emsp;&ensp;左键单击操作</option>
+       <option value="1">模拟&emsp;&emsp;&emsp;&emsp;&ensp;右键单击操作</option>
+       <option value="2">模拟&ensp;&thinsp;SHIFT＋左键单击操作</option>
+       <option value="3">模拟&ensp;&thinsp;SHIFT＋右键单击操作</option>
+</select>
+</DIV>
+
+<DIV style="PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">左键单击&emsp;&emsp;&emsp;&ensp;&thinsp;&thinsp;＝技能点加壹<BR>右键单击&emsp;&emsp;&emsp;&ensp;&thinsp;&thinsp;＝技能点减壹<BR>SHIFT＋左键单击＝技能点加满<BR>SHIFT＋右键单击＝技能点归零</DIV>
+
+<DIV>
+&ensp;&thinsp;<select name="rewards" onchange="GetSkillReward();return false" id="rewards" >
+       <option value="0" selected="selected">赠送技能点任务&emsp;&ensp;推荐等级</option>
+       <option value="1">普通战斗中的斯巴达人&emsp;6级</option>
+       <option value="3">普通传说中的野兽&emsp;&emsp;&ensp;20级</option>
+       <option value="5">普通在埃及的巨巫泰肯&ensp;27级</option>
+       <option value="7">普通泰坦之尘&emsp;&emsp;&emsp;&emsp;&ensp;39级</option>
+       <option value="8">普通受困的水妖&emsp;&emsp;&emsp;&ensp;43级</option>
+       <option value="10">普通侏儒王国历史&emsp;&emsp;&ensp;45级</option>
+       <option value="11">史诗战斗中的斯巴达人&ensp;47级</option>
+       <option value="13">史诗传说中的野兽&emsp;&emsp;&ensp;53级</option>
+       <option value="15">史诗在埃及的巨巫泰肯&ensp;56级</option>
+       <option value="17">史诗泰坦之尘&emsp;&emsp;&emsp;&emsp;&ensp;61级</option>
+       <option value="18">史诗受困的水妖&emsp;&emsp;&emsp;&ensp;63级</option>
+       <option value="20">史诗侏儒王国历史&emsp;&emsp;&ensp;65级</option>
+       <option value="21">传说战斗中的斯巴达人&ensp;66级</option>
+       <option value="23">传说传说中的野兽&emsp;&emsp;&ensp;68级</option>
+       <option value="25">传说在埃及的巨巫泰肯&ensp;70级</option>
+       <option value="27">传说泰坦之尘&emsp;&emsp;&emsp;&emsp;&ensp;72级</option>
+       <option value="28">传说受困的水妖&emsp;&emsp;&emsp;&ensp;73级</option>
+       <option value="30">传说侏儒王国历史&emsp;&emsp;&ensp;74级</option>
+</select>
+</DIV>
+
+<DIV id=spelllistingheader style="PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px"><B>技能列表：　 </B><INPUT id=verbose onclick=DrawSpellList(); type=checkbox>详细信息</DIV>
+<DIV id=spells style="center">尚未选取技能</DIV></TD></TR></TABLE><br>
+                                                                            </CENTER></td></tr>
+                                                                </TABLE>
+                                                            </td>
+                                                        </tr>
+                                                    </table></td>
+                                            </tr>
+                                        </table></td>
+                                </tr>
+                            </table>
+                            <table cellpadding="0" cellspacing="0" width="1280" height="47">
+                                <!-- MSTableType="layout" -->
+                                <tr>
+                                    <td valign="top" align="center" height="47" width="1280">
+                                    <img border="0" src="Preface_files/TQAEA%20frontpage%20bottom.png" width="1280" height="47"></td>
+                                </tr>
+                            </table>
+                        </center>
+                    </div></td>
+            </tr>
+        </table>
+    </div>
+
+
+</BODY>
+
+
+
+</HTML>

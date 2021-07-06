@@ -1,0 +1,1592 @@
+﻿<HTML><HEAD><TITLE>技能解析</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<STYLE>
+//td{
+//FONT-SIZE:8pt;
+//WIDTH:60px;
+//FONT-FAMILY:arial;
+//HEIGHT:60px;
+//TEXT-ALIGN:center
+//}
+a{
+COLOR:blue
+}
+.header{
+BACKGROUND:#ffa500
+}
+.light{
+BACKGROUND:#eeeeee
+}
+.dark{
+BACKGROUND:#dddddd
+}
+.new{
+BACKGROUND:#2399ff
+}
+.dlc{
+BACKGROUND:#FAC0E4
+}
+
+.earth{
+BACKGROUND:#ffd72b
+}
+.spirit{
+BACKGROUND:#dcfef8
+}
+.rogue{
+BACKGROUND:#d0bff1
+}
+.storm{
+BACKGROUND:#daf0fb
+}
+.nature{
+BACKGROUND:#d7fbb0
+}
+.hunting{
+BACKGROUND:#fbecaf
+}
+.defense{
+BACKGROUND:#d4e1e3
+}
+.dream{
+BACKGROUND:#B1B0FB
+}
+.warfare{
+BACKGROUND:#fff9c4
+}
+.rune{
+BACKGROUND:#FAC0E4
+}
+
+#title{
+FONT-WEIGHT:bold;
+FONT-SIZE:14pt
+}
+#updates{
+FONT-SIZE:10pt;
+WIDTH:100%;
+TEXT-ALIGN:left
+}
+</STYLE>
+</HEAD>
+
+<body bgcolor="#775915" text=#000000 vLink=#0000ff aLink=#0000ff link=#0000ff>
+    <div align="center">
+	    <table cellpadding="0" cellspacing="0" width="1280" height="700">
+            <!-- MSTableType="layout" -->
+            <tr>
+                <td align="center" height="700" width="1280" valign="top">
+                    <div align="center">
+                        <center>
+                            <table cellpadding="0" cellspacing="0" width="1280" height="52">
+                                <!-- MSTableType="layout" -->
+                                <tr>
+                                    <td height="52" align="center" valign="bottom" width="1280">
+                                        <img border="0" src="Preface_files/TQAEA%20frontpage%20top%20mi.png" width="1280" height="52"></td>
+                                </tr>
+                            </table>
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr> 
+                                    <td width="100%" bgcolor="#000000">
+                                        <table border="0" cellspacing="0" width="100%" cellpadding="6" height="662">
+                                            <tr bgcolor="#F5F7EE"> 
+                                                <td width="100%" height="660" bgcolor="#FBF3E3">
+                                                    <table width="100%" height="660" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td height="660" valign="top"><DIV align="left"> 
+                                                                <TABLE cellSpacing=0 cellPadding=0 width=1266 border=0 align=center>
+                                                                    <CENTER>
+                                                                    <CENTER><div id="title" align="center"><FONT face=Arial size=5 style="LINE-HEIGHT: 2" color=blue> 《泰坦之旅周年版：亚特兰迪斯》全专精技能解析  <font size=1> v2.7</font></FONT></div></CENTER>
+
+                                                                    <TABLE cellSpacing=1 cellPadding=0 align=center border=0>
+                                                                        <TR>
+                                                                            <TD class="header" width="13%"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>技能名称</FONT></TD>
+                                                                            <TD class="header" width="24%"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>技能类别</FONT></TD>
+                                                                            <TD class="header" width="40%"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>数据库文件</FONT></TD>
+                                                                            <TD class="header" width="23%"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>武器需求 & 备注说明</FONT></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">一、风暴专精<BR>Storm Mastery</TD>
+                                                                            <TD class="storm" height="50">专精<BR>Skill_Mastery</TD>
+                                                                            <TD class="storm" height="50">records\skills\storm\stormmastery.dbr</TD>
+                                                                            <TD class="storm" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">1. 冰晶<BR>Ice Shard</TD>
+                                                                            <TD class="storm" height="50">攻击、投射、多重投射<BR>Skill_AttackProjectileBurst</TD>
+                                                                            <TD class="storm" height="50">records\skills\storm\iceshard.dbr</TD>
+                                                                            <TD class="storm" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">2. 风暴之手<BR>Storm Nimbus</TD>
+                                                                            <TD class="storm" height="50">强化、开关切换<BR>Skill_BuffSelfToggled</TD>
+                                                                            <TD class="storm" height="50">records\skills\storm\stormnimbus.dbr<BR>
+records\skills\storm\stormnimbus_petbonus_le.dbr</TD>
+                                                                            <TD class="storm" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">3. 咒语打断<BR>Spell Breaker</TD>
+                                                                            <TD class="storm" height="50">技能驱散<BR>Skill_DispelMagic</TD>
+                                                                            <TD class="storm" height="50">records\skills\storm\spellbreaker.dbr</TD>
+                                                                            <TD class="storm" height="50">攻击时不附加种族伤害</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">4. 闪电球<BR>Thunderball</TD>
+                                                                            <TD class="storm" height="50"><font color=red> 攻击、投射</font><BR>Skill_AttackProjectile</TD>
+                                                                            <TD class="storm" height="50">records\skills\storm\thunderball.dbr</TD>
+                                                                            <TD class="storm" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">5. 霜冻之心<BR>Heart of Frost</TD>
+                                                                            <TD class="storm" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="storm" height="50">records\skills\storm\stormnimbus_heartoffrost.dbr</TD>
+                                                                            <TD class="storm" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">6. 咒语冲击<BR>Spell Shock</TD>
+                                                                            <TD class="storm" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="storm" height="50">records\skills\storm\spellbreaker_spellshock.dbr</TD>
+                                                                            <TD class="storm" height="50">攻击时不附加种族伤害</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">7. 穿透<BR>Velocity</TD>
+                                                                            <TD class="storm" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="storm" height="50">records\skills\storm\iceshard_velocity.dbr</TD>
+                                                                            <TD class="storm" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">8. 暴风<BR>Squall</TD>
+                                                                            <TD class="storm" height="50">攻击、投射、范围<BR>Skill_AttackProjectileAreaEffect</TD>
+                                                                            <TD class="storm" height="50">records\skills\storm\squall.dbr</TD>
+                                                                            <TD class="storm" height="50">攻击时不附加种族伤害</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">9. 冰封术<BR>Freezing Blast</TD>
+                                                                            <TD class="storm" height="50">攻击、范围、削弱、无法行动<BR>Skill_AttackBuffRadius<BR>SkillBuff_DebufFreeze</TD>
+                                                                            <TD class="storm" height="50">records\skills\storm\freezingblast.dbr<BR>records\skills\storm\freezingblastbuff.dbr</TD>
+                                                                            <TD class="storm" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">10. 闪电术<BR>Lightning Bolt</TD>
+                                                                            <TD class="storm" height="50">攻击、范围、闪电<BR>Skill_AttackRadiusLightning</TD>
+                                                                            <TD class="storm" height="50">records\skills\storm\lightningbolt.dbr</TD>
+                                                                            <TD class="storm" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">11. 冲击波<BR>Concussive Blast</TD>
+                                                                            <TD class="storm" height="50">技能进阶、投射强化<BR>Skill_ProjectileModifier</TD>
+                                                                            <TD class="storm" height="50">records\skills\storm\thunderball_concussiveblast.dbr</TD>
+                                                                            <TD class="storm" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">12. 阴暗视线<BR>Obscured Visibility</TD>
+                                                                            <TD class="storm" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="storm" height="50">records\skills\storm\squall_obscuredvisibility.dbr</TD>
+                                                                            <TD class="storm" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">13. 静电力场<BR>Static Charge</TD>
+                                                                            <TD class="storm" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="storm" height="50">records\skills\storm\stormnimbus_staticcharge.dbr</TD>
+                                                                            <TD class="storm" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">14. 能量护盾<BR>Energy Shield</TD>
+                                                                            <TD class="storm" height="50"><font color=red>光环、强化</font><BR>Skill_BuffOther<BR>SkillBuff_Passive</TD>
+                                                                            <TD class="storm" height="50">records\skills\storm\energyshield.dbr<BR>records\skills\storm\energyshieldbuff.dbr</TD>
+                                                                            <TD class="storm" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">15. 激流<BR>Torrent</TD>
+                                                                            <TD class="storm" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="storm" height="50">records\skills\storm\iceshard_torrent.dbr</TD>
+                                                                            <TD class="storm" height="50">9.0～36.0 分散角度</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">16. 召唤风暴精灵<BR>Summon Wisp</TD>
+                                                                            <TD class="storm" height="50"><font color=red>召唤、宠物</font><BR>Skill_SpawnPet<BR>Pet</TD>
+                                                                            <TD class="storm" height="50">records\skills\storm\stormwispsummoning.dbr<BR>records\skills\storm\pet\stormwisp_01～20.dbr</TD>
+                                                                            <TD class="storm" height="50">1 召唤上限</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">17. 风暴汹涌<BR>Storm Surge</TD>
+                                                                            <TD class="storm" height="50">攻击、被动发动、范围<BR>Skill_OnHitAttackRadius</TD>
+                                                                            <TD class="storm" height="50">records\skills\storm\stormsurge.dbr</TD>
+                                                                            <TD class="storm" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">18. 连锁闪电<BR>Chain Lightning</TD>
+                                                                            <TD class="storm" height="50">连锁技能、攻击、闪电链式<BR>SkillSecondary_ChainLightning</TD>
+                                                                            <TD class="storm" height="50">records\skills\storm\lightningbolt_chainlightning.dbr</TD>
+                                                                            <TD class="storm" height="50">75.0% 几率发生电弧式跳跃<BR>8.0 米最大跳跃间隔</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">19. 风暴之眼<BR>Eye of the Storm</TD>
+                                                                            <TD class="storm" height="50">宠物技能、光环、范围、强化<BR>SkillSecondary_PetModifier<BR>Skill_BuffRadius<BR>SkillBuff_Passive</TD>
+                                                                            <TD class="storm" height="50">records\skills\storm\stormwisp_petmodifier_eyeofthestorm.dbr<BR>records\skills\storm\stormwisp_petskill_eyeofthestorm.dbr<BR>records\skills\storm\stormwisp_petskill_eyeofthestormbuff.dbr</TD>
+                                                                            <TD class="storm" height="50">24.0 秒 冷却</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">20. 伤害反弹<BR>Reflection</TD>
+                                                                            <TD class="storm" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="storm" height="50">records\skills\storm\energyshield_reflection.dbr</TD>
+                                                                            <TD class="storm" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">21. 弧形电波<BR>Arc Discharge</TD>
+                                                                            <TD class="storm" height="50">宠物技能、连锁技能、闪电叉式<BR>SkillSecondary_PetModifier<BR>SkillSecondary_ForkLightning</TD>
+                                                                            <TD class="storm" height="50">records\xpack3\skills\allmasteries\storm_stormwisp_petmodifier_arcingchaos.dbr<BR>records\xpack3\skills\allmasteries\storm_stormwisp_petskill_arcingchaos.dbr</TD>
+                                                                            <TD class="storm" height="50">3 ~ 7 最大目标数</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="storm" height="50">22. 闪电冲刺<BR>Lightning Dash</TD>
+                                                                            <TD class="storm" height="50">攻击、武器、冲锋<BR>Skill_AttackWeaponCharge</TD>
+                                                                            <TD class="storm" height="50">records\xpack3\skills\allmasteries\storm_flash.dbr</TD>
+                                                                            <TD class="storm" height="50"></TD>
+                                                                        </TR>
+
+                                                                        <TR>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>技能名称</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>技能类别</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>数据库文件</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>武器需求 & 技能备注</FONT></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">二、大地专精<BR>Earth Mastery</TD>
+                                                                            <TD class="earth" height="50">专精<BR>Skill_Mastery</TD>
+                                                                            <TD class="earth" height="50">records\skills\earth\earthmastery.dbr</TD>
+                                                                            <TD class="earth" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">1. 大地附魔<BR>Earth Enchantment</TD>
+                                                                            <TD class="earth" height="50">光环、范围、开关切换、强化<BR>Skill_BuffRadiusToggled<BR>SkillBuff_Passive</TD>
+                                                                            <TD class="earth" height="50">records\skills\earth\fireenchantment.dbr<BR>records\skills\earth\fireenchantmentbuff.dbr</TD>
+                                                                            <TD class="earth" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">2. 火焰奔腾<BR>Flame Surge</TD>
+                                                                            <TD class="earth" height="50">攻击、投射、扇型投射<BR>Skill_AttackProjectileFan</TD>
+                                                                            <TD class="earth" height="50">records\skills\earth\flamesurge.dbr</TD>
+                                                                            <TD class="earth" height="50">20.0 分散角度</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">3. 硫磺之石<BR>Brimstone</TD>
+                                                                            <TD class="earth" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="earth" height="50">records\skills\earth\fireenchantment_brimstone.dbr</TD>
+                                                                            <TD class="earth" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">4. 炽火盾牌<BR>Heat Shield</TD>
+                                                                            <TD class="earth" height="50"><font color=red>光环、强化</font><BR>Skill_BuffOther<BR>SkillBuff_Passive</TD>
+                                                                            <TD class="earth" height="50">records\skills\earth\heatshield.dbr<BR>records\skills\earth\heatshieldbuff.dbr</TD>
+                                                                            <TD class="earth" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">5. 火焰之环<BR>Ring of Flame</TD>
+                                                                            <TD class="earth" height="50">光环、攻击、范围、开关切换<BR>Skill_BuffAttackRadiusToggled</TD>
+                                                                            <TD class="earth" height="50">records\skills\earth\ringofflame.dbr</TD>
+                                                                            <TD class="earth" height="50">攻击时不附加种族伤害</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">6. 火山岩球<BR>Volcanic Orb</TD>
+                                                                            <TD class="earth" height="50">攻击、投射<BR>Skill_AttackProjectile</TD>
+                                                                            <TD class="earth" height="50">records\skills\earth\volcanicorb.dbr</TD>
+                                                                            <TD class="earth" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">7. 石化状态<BR>Stone Form</TD>
+                                                                            <TD class="earth" height="50">强化、无法行动<BR>Skill_BuffSelfImmobilize</TD>
+                                                                            <TD class="earth" height="50">records\skills\earth\stoneformbuffself.dbr</TD>
+                                                                            <TD class="earth" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">8. 地心守卫<BR>Summon Core Dweller</TD>
+                                                                            <TD class="earth" height="50"><font color=red>召唤、宠物</font><BR>Skill_SpawnPet<BR>Pet</TD>
+                                                                            <TD class="earth" height="50">records\skills\earth\coredweller.dbr<BR>records\skills\earth\pet\coredweller_01～20.dbr</TD>
+                                                                            <TD class="earth" height="50">1 召唤上限</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">9. 火力攻击<BR>Barrage</TD>
+                                                                            <TD class="earth" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="earth" height="50">records\skills\earth\flamesurge_barrage.dbr</TD>
+                                                                            <TD class="earth" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">10. 岩石皮肤<BR>Stone Skin</TD>
+                                                                            <TD class="earth" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="earth" height="50">records\skills\earth\fireenchantment_stoneskin.dbr</TD>
+                                                                            <TD class="earth" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">11. 地火燃烧<BR>Inner Fire</TD>
+                                                                            <TD class="earth" height="50">宠物技能、强化、被动<BR>SkillSecondary_PetModifier<BR>Skill_Passive</TD>
+                                                                            <TD class="earth" height="50">records\skills\earth\coredweller_petmodifier_innerfire.dbr<BR>records\skills\earth\coredweller_petskill_innerfire.dbr</TD>
+                                                                            <TD class="earth" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">12. 软化金属<BR>Soften Metal</TD>
+                                                                            <TD class="earth" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="earth" height="50">records\skills\earth\ringofflame_softenmetal.dbr</TD>
+                                                                            <TD class="earth" height="50">攻击时不附加种族伤害</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">13. 爆燃<BR>Conflagration</TD>
+                                                                            <TD class="earth" height="50">技能进阶、投射强化<BR>Skill_ProjectileModifier</TD>
+                                                                            <TD class="earth" height="50">records\skills\earth\volcanicorb_immolation.dbr</TD>
+                                                                            <TD class="earth" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">14. 熔化岩石<BR>Molten Rock</TD>
+                                                                            <TD class="earth" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="earth" height="50">records\skills\earth\stoneform_moltenrock.dbr</TD>
+                                                                            <TD class="earth" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">15. 野火<BR>Wildfire</TD>
+                                                                            <TD class="earth" height="50">宠物技能、攻击、投射、范围<BR>SkillSecondary_PetModifier<BR>Skill_AttackProjectileAreaEffect</TD>
+                                                                            <TD class="earth" height="50">records\skills\earth\coredweller_petmodifier_wildfire.dbr<BR>records\skills\earth\coredweller_petskill_wildfire.dbr</TD>
+                                                                            <TD class="earth" height="50">6.0 秒 冷却</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">16. 火焰曲拱<BR>Flame Arch</TD>
+                                                                            <TD class="earth" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="earth" height="50">records\skills\earth\flamesurge_flamearch.dbr</TD>
+                                                                            <TD class="earth" height="50">15.0～60.0 分散角度</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">17. 爆裂<BR>Fragmentation</TD>
+                                                                            <TD class="earth" height="50">技能进阶、投射强化<BR>Skill_ProjectileModifier</TD>
+                                                                            <TD class="earth" height="50">records\skills\earth\volcanicorb_fragmentation.dbr</TD>
+                                                                            <TD class="earth" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">18. 岩石爆炸<BR>Volativity</TD>
+                                                                            <TD class="earth" height="50">强化、被动<BR>Skill_Passive</TD>
+                                                                            <TD class="earth" height="50">records\skills\earth\volatility.dbr</TD>
+                                                                            <TD class="earth" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">19. 变形术<BR>Metamorphosis</TD>
+                                                                            <TD class="earth" height="50">宠物技能、强化、被动<BR>SkillSecondary_PetModifier<BR>Skill_Passive</TD>
+                                                                            <TD class="earth" height="50">records\skills\earth\coredweller_petmodifier_metamorphosis.dbr<BR>records\skills\earth\coredweller_petskill_metamorphosis.dbr</TD>
+                                                                            <TD class="earth" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">20. 火山爆发<BR>Eruption</TD>
+                                                                            <TD class="earth" height="50">攻击、投射、范围<BR>Skill_AttackProjectileAreaEffect</TD>
+                                                                            <TD class="earth" height="50">records\skills\earth\eruption.dbr</TD>
+                                                                            <TD class="earth" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">21. 流星雨<BR>Meteor Rain</TD>
+                                                                            <TD class="earth" height="50">坠落、投射、心灵遥感<BR>Skill_DropProjectileTelekinesis</TD>
+                                                                            <TD class="earth" height="50">records\xpack3\skills\allmasteries\earth_meteors.dbr</TD>
+                                                                            <TD class="earth" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="earth" height="50">22. 火焰新星<BR>Fire Nova</TD>
+                                                                            <TD class="earth" height="50">攻击、范围<BR>Skill_AttackRadius</TD>
+                                                                            <TD class="earth" height="50">records\xpack3\skills\allmasteries\earth_firenova.dbr</TD>
+                                                                            <TD class="earth" height="50"></TD>
+                                                                        </TR>
+
+                                                                        <TR>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>技能名称</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>技能类别</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>数据库文件</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>武器需求 & 技能备注</FONT></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">三、梦幻专精<BR>Dream Mastery</TD>
+                                                                            <TD class="dream" height="50">专精<BR>Skill_Mastery</TD>
+                                                                            <TD class="dream" height="50">records\xpack\skills\dream\dreammastery.dbr</TD>
+                                                                            <TD class="dream" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">1. 沉睡之沙<BR>Sands of Sleep</TD>
+                                                                            <TD class="dream" height="50">攻击、闪电链式<BR>Skill_AttackChain</TD>
+                                                                            <TD class="dream" height="50">records\xpack\skills\dream\sandsofsleep.dbr</TD>
+                                                                            <TD class="dream" height="50">100.0% 几率发生电弧式跳跃<BR>6.0 米最大跳跃间隔</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">2. 心灵接触<BR>Psionic Touch</TD>
+                                                                            <TD class="dream" height="50">攻击、武器、蓄能、最终释放<BR>Skill_WeaponPool_ChargedFinale</TD>
+                                                                            <TD class="dream" height="50">records\xpack\skills\dream\psionictouch.dbr</TD>
+                                                                            <TD class="dream" height="50">无武器需求<BR>10.0 秒蓄能持续时间</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">3. 扭曲波浪<BR>Distortion Wave</TD>
+                                                                            <TD class="dream" height="50">攻击、波动<BR>Skill_AttackWave</TD>
+                                                                            <TD class="dream" height="50">records\xpack\skills\dream\distortionwave.dbr</TD>
+                                                                            <TD class="dream" height="50">16.0 米波动传播距离<BR>2.0～5.0 米波动宽度<BR>波动起始于 1.0 米外<BR>1.0 秒波动传播时间</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">4. 感同身受<BR>Trance of Empathy</TD>
+                                                                            <TD class="dream" height="50">光环、范围、开关切换、强化<BR>Skill_BuffRadiusToggled<BR>SkillBuff_Passive</TD>
+                                                                            <TD class="dream" height="50">records\xpack\skills\dream\tranceofempathy.dbr<BR>records\xpack\skills\dream\tranceofempathybuff.dbr</TD>
+                                                                            <TD class="dream" height="50">攻击时不附加种族伤害</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">5. 清澈梦境<BR>Lucid Dream</TD>
+                                                                            <TD class="dream" height="50">强化、被动<BR>Skill_Passive</TD>
+                                                                            <TD class="dream" height="50">records\xpack\skills\dream\luciddream.dbr</TD>
+                                                                            <TD class="dream" height="50">攻击时不附加种族伤害</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">6. 幻影攻击<BR>Phantom Strike</TD>
+                                                                            <TD class="dream" height="50">攻击、武器、幻影<BR>Skill_AttackWeaponBlink</TD>
+                                                                            <TD class="dream" height="50">records\xpack\skills\dream\phantomstrike.dbr</TD>
+                                                                            <TD class="dream" height="50">剑、斧、矛、锤</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">7. 征兆<BR>Premonition</TD>
+                                                                            <TD class="dream" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="dream" height="50">records\xpack\skills\dream\luciddream_premonition.dbr</TD>
+                                                                            <TD class="dream" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">8. 召唤梦魔<BR>Summon Nightmare</TD>
+                                                                            <TD class="dream" height="50"><font color=red>召唤、宠物</font><BR>Skill_SpawnPet<BR>Pet</TD>
+                                                                            <TD class="dream" height="50">records\xpack\skills\dream\nightmare.dbr<BR>records\xpack\skills\dream\pet\nightmare_01～20.dbr</TD>
+                                                                            <TD class="dream" height="50">1 召唤上限</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">9. 心灵燃烧<BR>Psionic Burn</TD>
+                                                                            <TD class="dream" height="50">连锁技能、攻击、范围<BR>SkillSecondary_AttackRadius</TD>
+                                                                            <TD class="dream" height="50">records\xpack\skills\dream\psionictouch_psionicburn.dbr</TD>
+                                                                            <TD class="dream" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">10. 盗梦者<BR>Dream Stealer</TD>
+                                                                            <TD class="dream" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="dream" height="50">records\xpack\skills\dream\phantomstrike_dreamstealer.dbr</TD>
+                                                                            <TD class="dream" height="50">1.5～6.0 米波动传播距离<BR>0.5～5.0 米波动结束宽度</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">11. 混沌共振<BR>Chaotic Resonance</TD>
+                                                                            <TD class="dream" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="dream" height="50">records\xpack\skills\dream\distortionwave_chaoticresonance.dbr</TD>
+                                                                            <TD class="dream" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">12. 龟息<BR>Trance of Convalescence</TD>
+                                                                            <TD class="dream" height="50">光环、范围、开关切换、强化<BR>Skill_BuffRadiusToggled<BR>SkillBuff_Passive</TD>
+                                                                            <TD class="dream" height="50">records\xpack\skills\dream\tranceofconvalescence.dbr<BR>records\xpack\skills\dream\tranceofconvalescencebuff.dbr</TD>
+                                                                            <TD class="dream" height="50">攻击时不附加种族伤害</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">13. 催眠凝视<BR>Hypnotic Gaze</TD>
+                                                                            <TD class="dream" height="50">宠物技能、攻击<BR>SkillSecondary_PetModifier<BR>Skill_AttackSpell</TD>
+                                                                            <TD class="dream" height="50">records\xpack\skills\dream\nightmare_petmodifier_hypnoticgaze.dbr<BR>records\xpack\skills\dream\nightmare_petskill_hypnoticgaze.dbr</TD>
+                                                                            <TD class="dream" height="50">攻击时不附加种族伤害</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">14. 扭曲力场<BR>Distortion Field</TD>
+                                                                            <TD class="dream" height="50">强化、被动发动<BR>Skill_PassiveOnHitBuffSelf</TD>
+                                                                            <TD class="dream" height="50">records\xpack\skills\dream\distortionfield.dbr</TD>
+                                                                            <TD class="dream" height="50">攻击时不附加种族伤害</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">15. 扭曲现实<BR>Distort Reality</TD>
+                                                                            <TD class="dream" height="50">攻击、范围<BR>Skill_AttackRadius</TD>
+                                                                            <TD class="dream" height="50">records\xpack\skills\dream\distortreality.dbr</TD>
+                                                                            <TD class="dream" height="50">攻击时不附加种族伤害</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">16. 时间变迁<BR>Temporal Flux</TD>
+                                                                            <TD class="dream" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="dream" height="50">records\xpack\skills\dream\luciddream_temporalflux.dbr</TD>
+                                                                            <TD class="dream" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">17. 心灵牺牲<BR>Psionic Immolation</TD>
+                                                                            <TD class="dream" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="dream" height="50">records\xpack\skills\dream\distortionwave_psionicimmolation.dbr</TD>
+                                                                            <TD class="dream" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">18. 神罚<BR>Trance of Wrath</TD>
+                                                                            <TD class="dream" height="50">光环、攻击、范围、开关切换<BR>Skill_BuffAttackRadiusToggled</TD>
+                                                                            <TD class="dream" height="50">records\xpack\skills\dream\tranceofwrath.dbr</TD>
+                                                                            <TD class="dream" height="50">攻击时不附加种族伤害</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">19. 控制心神<BR>Master Mind</TD>
+                                                                            <TD class="dream" height="50">宠物技能、光环、范围、开关切换、强化<BR>SkillSecondary_PetModifier<BR>Skill_BuffRadiusToggled<BR>SkillBuff_Passive</TD>
+                                                                            <TD class="dream" height="50">records\xpack\skills\dream\nightmare_petmodifier_mastermind.dbr<BR>records\xpack\skills\dream\nightmare_petskill_mastermind.dbr<BR>records\xpack\skills\dream\nightmare_petskill_mastermindbuff.dbr<BR>records\xpack\skills\dream\nightmare_petskill_mastermindpetbonus.dbr</TD>
+                                                                            <TD class="dream" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">20. 时间裂缝<BR>Temporal Rift</TD>
+                                                                            <TD class="dream" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="dream" height="50">records\xpack\skills\dream\distortreality_temporalrift.dbr</TD>
+                                                                            <TD class="dream" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">21. 梦境镜像<BR>Dream Image</TD>
+                                                                            <TD class="dream" height="50">召唤、宠物、强化、开关<BR>Skill_SpawnPet<BR>Monster<BR>Skill_BuffSelfToggled</TD>
+                                                                            <TD class="dream" height="50">records\xpack3\skills\allmasteries\dream_summoncopy.dbr<BR>records\xpack3\skills\allmasteries\pet\dreamcopypet.dbr<BR>records\xpack3\skills\allmasteries\pet\dreamcopypet_petskill_aura.dbr</TD>
+                                                                            <TD class="dream" height="50">1 召唤上限</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="dream" height="50">22. 心灵光线<BR>Psionic Beam</TD>
+                                                                            <TD class="dream" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="dream" height="50">records\xpack3\skills\allmasteries\dream_psionictouch_staffbeammod.dbr</TD>
+                                                                            <TD class="dream" height="50"></TD>
+                                                                        </TR>
+
+                                                                        <TR>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>技能名称</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>技能类别</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>数据库文件</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>武器需求 & 技能备注</FONT></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">四、战斗专精<BR>Warfare Mastery</TD>
+                                                                            <TD class="warfare" height="50">专精<BR>Skill_Mastery</TD>
+                                                                            <TD class="warfare" height="50">records\skills\warfare\warfaremastery.dbr</TD>
+                                                                            <TD class="warfare" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">1. 武器大师<BR>Weapon Training</TD>
+                                                                            <TD class="warfare" height="50">强化、被动<BR>Skill_Passive</TD>
+                                                                            <TD class="warfare" height="50">records\skills\warfare\weapontraining.dbr</TD>
+                                                                            <TD class="warfare" height="50">剑、斧、锤、投掷武器</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">2. 战斗狂暴<BR>Battle Rage</TD>
+                                                                            <TD class="warfare" height="50">强化、被动发动<BR>Skill_PassiveOnHitBuffSelf</TD>
+                                                                            <TD class="warfare" height="50">records\skills\warfare\battlerage.dbr</TD>
+                                                                            <TD class="warfare" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">3. 冲击<BR>Onslaught</TD>
+                                                                            <TD class="warfare" height="50">攻击、武器、蓄能、逐步释放<BR>Skill_WeaponPool_ChargedLinear</TD>
+                                                                            <TD class="warfare" height="50">records\skills\warfare\onslaught.dbr</TD>
+                                                                            <TD class="warfare" height="50">剑、斧、弓、矛、锤、投掷武器<BR>1.5 秒蓄能持续时间</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">4. 双手持刃<BR>Dual Wield</TD>
+                                                                            <TD class="warfare" height="50">攻击、武器、攻击触发<BR>Skill_WPAttack_BasicAttack</TD>
+                                                                            <TD class="warfare" height="50">records\skills\warfare\dualweapontraining.dbr</TD>
+                                                                            <TD class="warfare" height="50">剑、斧、锤、投掷武器（仅双持有效）<BR>剑、斧、锤之间可双持<BR>投掷武器之间可双持<BR>投掷武器与剑、斧、锤之间不能双持</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">5. 闪避<BR>Dodge Attack</TD>
+                                                                            <TD class="warfare" height="50">强化、被动<BR>Skill_Passive</TD>
+                                                                            <TD class="warfare" height="50">records\skills\warfare\dodge attack.dbr</TD>
+                                                                            <TD class="warfare" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">6. 专注<BR>Ignore Pain</TD>
+                                                                            <TD class="warfare" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="warfare" height="50">records\skills\warfare\onslaught_ignorepain.dbr</TD>
+                                                                            <TD class="warfare" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">7. 战争号角<BR>War Horn</TD>
+                                                                            <TD class="warfare" height="50">攻击、范围<BR>Skill_AttackRadius</TD>
+                                                                            <TD class="warfare" height="50">records\skills\warfare\warhorn.dbr</TD>
+                                                                            <TD class="warfare" height="50">攻击时不附加种族伤害</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">8. 劈斩<BR>Hew</TD>
+                                                                            <TD class="warfare" height="50">攻击、武器、攻击触发<BR>Skill_WPAttack_BasicAttack</TD>
+                                                                            <TD class="warfare" height="50">records\skills\warfare\dualwieldtechnique_jumpslash.dbr</TD>
+                                                                            <TD class="warfare" height="50">剑、斧、锤（仅双持有效）</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">9. 致命一击<BR>Crushing Blow</TD>
+                                                                            <TD class="warfare" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="warfare" height="50">records\skills\warfare\battlerage_crushingblow.dbr</TD>
+                                                                            <TD class="warfare" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">10. 战斗军旗<BR>Battle Standard</TD>
+                                                                            <TD class="warfare" height="50"><font color=red>召唤、宠物</font><BR>Skill_SpawnPet<BR>Pet</TD>
+                                                                            <TD class="warfare" height="50">records\skills\warfare\battlestandard.dbr<BR>records\skills\warfare\pets\battlestandard_01～14.dbr</TD>
+                                                                            <TD class="warfare" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">11. 战风<BR>War Wind</TD>
+                                                                            <TD class="warfare" height="50">攻击、武器、冲锋<BR>Skill_AttackWeaponCharge</TD>
+                                                                            <TD class="warfare" height="50">records\skills\warfare\warwind.dbr</TD>
+                                                                            <TD class="warfare" height="50">剑、斧、矛、锤</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">12. 十字斩<BR>Cross Cut</TD>
+                                                                            <TD class="warfare" height="50">攻击、武器、攻击触发<BR>Skill_WPAttack_BasicAttack</TD>
+                                                                            <TD class="warfare" height="50">records\skills\warfare\dualwieldtechnique_crosscut.dbr</TD>
+                                                                            <TD class="warfare" height="50">剑、斧、锤（仅双持有效）</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">13. 断筋<BR>Hamstring</TD>
+                                                                            <TD class="warfare" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="warfare" height="50">records\skills\warfare\onslaught_hamstring.dbr</TD>
+                                                                            <TD class="warfare" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">14. 反击<BR>Counter Attack</TD>
+                                                                            <TD class="warfare" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="warfare" height="50">records\skills\warfare\battlerage_counterattack.dbr</TD>
+                                                                            <TD class="warfare" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">15. 胜利之光<BR>Triumph</TD>
+                                                                            <TD class="warfare" height="50"><font color=red>宠物技能、光环、范围、强化（削弱）</font><BR>SkillSecondary_PetModifier<BR>Skill_BuffRadius<BR>SkillBuff_Passive</TD>
+                                                                            <TD class="warfare" height="50">records\skills\warfare\battlestandard_petmodifier_triumph.dbr<BR>records\skills\warfare\battlestandard_petskill_triumphbuffradius.dbr<BR>records\skills\warfare\battlestandard_petskill_triumph.dbr</TD>
+                                                                            <TD class="warfare" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">16. 割裂<BR>Lacerate</TD>
+                                                                            <TD class="warfare" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="warfare" height="50">records\skills\warfare\warwind_lacerate.dbr</TD>
+                                                                            <TD class="warfare" height="50">至少一把剑、斧、矛</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">17. 末日号角<BR>Doom Horn</TD>
+                                                                            <TD class="warfare" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="warfare" height="50">records\skills\warfare\warhorn_doomhorn.dbr</TD>
+                                                                            <TD class="warfare" height="50">攻击时不附加种族伤害</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">18. 乱舞<BR>Tumult</TD>
+                                                                            <TD class="warfare" height="50">攻击、武器、攻击触发<BR>Skill_WPAttack_BasicAttack</TD>
+                                                                            <TD class="warfare" height="50">records\skills\warfare\dualwieldtechnique_tumult.dbr</TD>
+                                                                            <TD class="warfare" height="50">剑、斧、锤（仅双持有效）</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">19. 狂热<BR>Ardor</TD>
+                                                                            <TD class="warfare" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="warfare" height="50">records\skills\warfare\onslaught_ardor.dbr</TD>
+                                                                            <TD class="warfare" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">20. 祖传号角<BR>Ancestral Horn</TD>
+                                                                            <TD class="warfare" height="50"><font color=red>召唤、宠物</font><BR>Skill_SpawnPet<BR>Pet</TD>
+                                                                            <TD class="warfare" height="50">records\skills\warfare\ancestralhorn.dbr<BR>records\skills\warfare\pets\spectralsoldier_01～20.dbr</TD>
+                                                                            <TD class="warfare" height="50">一次召唤 3～5 个</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">21. 猛击<BR>Slam</TD>
+                                                                            <TD class="warfare" height="50">攻击、波动<BR>Skill_AttackWave</TD>
+                                                                            <TD class="warfare" height="50">records\xpack3\skills\allmasteries\warfare_clubslam.dbr</TD>
+                                                                            <TD class="warfare" height="50">25.0 米波动传播距离<BR>1.0～2.0 米波动宽度<BR>0.5 秒波动传播时间</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="warfare" height="50">22. 不朽遗产<BR>Lasting Legacy</TD>
+                                                                            <TD class="warfare" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="warfare" height="50">records\xpack3\skills\allmasteries\warfare_ancestralmod.dbr</TD>
+                                                                            <TD class="warfare" height="50"></TD>
+                                                                        </TR>
+
+                                                                        <TR>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>技能名称</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>技能类别</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>数据库文件</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>武器需求 & 技能备注</FONT></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">五、死灵专精<BR>Spirit Mastery</TD>
+                                                                            <TD class="spirit" height="50">专精<BR>Skill_Mastery</TD>
+                                                                            <TD class="spirit" height="50">records\skills\spirit\spiritmastery.dbr</TD>
+                                                                            <TD class="spirit" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">1. 死亡寒意<BR>Deathchill Aura</TD>
+                                                                            <TD class="spirit" height="50">光环、范围、开关切换、削弱<BR>Skill_BuffRadiusToggled<BR>SkillBuff_Debuf</TD>
+                                                                            <TD class="spirit" height="50">records\skills\spirit\deathchillaura.dbr<BR>records\skills\spirit\deathchillaurabuff.dbr</TD>
+                                                                            <TD class="spirit" height="50">攻击时不附加种族伤害</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">2. 生命吸取<BR>Life Drain</TD>
+                                                                            <TD class="spirit" height="50">攻击、追踪<BR>Skill_AttackSpellChaos</TD>
+                                                                            <TD class="spirit" height="50">records\skills\spirit\lifedrain.dbr</TD>
+                                                                            <TD class="spirit" height="50">18.0 米最远距离</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">3. 三重打击<BR>Ternion Attack</TD>
+                                                                            <TD class="spirit" height="50">攻击、武器、远程分散<BR>Skill_AttackWeaponRangedSpread</TD>
+                                                                            <TD class="spirit" height="50">records\skills\spirit\ternion.dbr</TD>
+                                                                            <TD class="spirit" height="50">杖</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">4. 时间创伤<BR>Ravages of Time</TD>
+                                                                            <TD class="spirit" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="spirit" height="50">records\skills\spirit\deathchillaura_ravagesoftime.dbr</TD>
+                                                                            <TD class="spirit" height="50">攻击时不附加种族伤害</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">5. 死亡凝视<BR>Vision of Death</TD>
+                                                                            <TD class="spirit" height="50">攻击、投射、范围<BR>Skill_AttackProjectileAreaEffect</TD>
+                                                                            <TD class="spirit" height="50">records\skills\spirit\visionofdeath.dbr</TD>
+                                                                            <TD class="spirit" height="50">攻击时不附加种族伤害</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">6. 灵魂守护<BR>Spirit Ward</TD>
+                                                                            <TD class="spirit" height="50">光环、范围、开关切换、强化<BR>Skill_BuffRadiusToggled<BR>SkillBuff_Passive</TD>
+                                                                            <TD class="spirit" height="50">records\skills\spirit\spiritward.dbr<BR>records\skills\spirit\spiritwardbuff.dbr</TD>
+                                                                            <TD class="spirit" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">7. 锁链<BR>Cascade</TD>
+                                                                            <TD class="spirit" height="50">连锁技能、攻击、闪电链式<BR>SkillSecondary_ChainLightning</TD>
+                                                                            <TD class="spirit" height="50">records\skills\spirit\lifedrain_cascade.dbr</TD>
+                                                                            <TD class="spirit" height="50">66.0% 几率发生电弧式跳跃<BR>6.0 米最大跳跃间隔</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">8. 黑暗契约<BR>Dark Covenant</TD>
+                                                                            <TD class="spirit" height="50">光环、范围、强化<BR>Skill_BuffRadius<BR>SkillBuff_Passive</TD>
+                                                                            <TD class="spirit" height="50">records\skills\spirit\darkcovenant.dbr<BR>records\skills\spirit\darkcovenantbuff.dbr</TD>
+                                                                            <TD class="spirit" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">9. 尸王召唤<BR>Summon Liche King</TD>
+                                                                            <TD class="spirit" height="50"><font color=red>召唤、宠物</font><BR>Skill_SpawnPet<BR>Pet</TD>
+                                                                            <TD class="spirit" height="50">records\skills\spirit\wraithlordsummons.dbr<BR>records\skills\spirit\pet\wraithlord_01～20.dbr</TD>
+                                                                            <TD class="spirit" height="50">1 召唤上限</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">10. 灵魂诅咒<BR>Spirit Bane</TD>
+                                                                            <TD class="spirit" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="spirit" height="50">records\skills\spirit\spiritward_spiritbane.dbr</TD>
+                                                                            <TD class="spirit" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">11. 神秘学识<BR>Arcane Lore</TD>
+                                                                            <TD class="spirit" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="spirit" height="50">records\skills\spirit\ternion_arcanelore.dbr</TD>
+                                                                            <TD class="spirit" height="50">杖</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">12. 骨疽<BR>Necrosis</TD>
+                                                                            <TD class="spirit" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="spirit" height="50">records\skills\spirit\deathchillaura_necrosis.dbr</TD>
+                                                                            <TD class="spirit" height="50">攻击时不附加种族伤害</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">13. 奴役<BR>Enslave Spirit</TD>
+                                                                            <TD class="spirit" height="50">攻击<BR>Skill_AttackSpell</TD>
+                                                                            <TD class="spirit" height="50">records\skills\spirit\enslavespirit.dbr</TD>
+                                                                            <TD class="spirit" height="50">攻击时不附加种族伤害</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">14. 死亡新星<BR>Death Nova</TD>
+                                                                            <TD class="spirit" height="50">宠物技能、攻击、范围<BR>SkillSecondary_PetModifier<BR>Skill_AttackRadius</TD>
+                                                                            <TD class="spirit" height="50">records\skills\spirit\wraithlord_petmodifier_deathnova.dbr<BR>records\skills\spirit\wraithlord_petskill_deathnova.dbr</TD>
+                                                                            <TD class="spirit" height="50">12.0 秒 冷却</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">15. 外世能量<BR>Unearthly Power</TD>
+                                                                            <TD class="spirit" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="spirit" height="50">records\skills\spirit\darkcovenant_unearthlypower.dbr</TD>
+                                                                            <TD class="spirit" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">16. 鬼魂壳甲<BR>Wraith Shell</TD>
+                                                                            <TD class="spirit" height="50">宠物技能、强化、开关切换<BR>SkillSecondary_PetModifier<BR>Skill_BuffSelfToggled</TD>
+                                                                            <TD class="spirit" height="50">records\skills\spirit\wraithlord_petmodifier_wraithshell.dbr<BR>records\skills\spirit\wraithlord_petskill_wraithshell.dbr</TD>
+                                                                            <TD class="spirit" height="50">10.0 秒 冷却</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">17. 灵魂之环<BR>Circle of Power</TD>
+                                                                            <TD class="spirit" height="50"><font color=red>召唤、宠物</font><BR>Skill_SpawnPet<BR>Pet</TD>
+                                                                            <TD class="spirit" height="50">records\skills\spirit\circleofpower.dbr<BR>records\skills\spirit\pet\spiritward_01～16.dbr</TD>
+                                                                            <TD class="spirit" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">18. 死亡护卫<BR>Death Ward</TD>
+                                                                            <TD class="spirit" height="50">强化、生命监控<BR>Skill_PassiveOnLifeBuffSelf</TD>
+                                                                            <TD class="spirit" height="50">records\skills\spirit\deathward.dbr</TD>
+                                                                            <TD class="spirit" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">19. 召唤外界生物<BR>Summon Outsider</TD>
+                                                                            <TD class="spirit" height="50"><font color=red>召唤、宠物</font><BR>Skill_SpawnPet<BR>Pet</TD>
+                                                                            <TD class="spirit" height="50">records\skills\spirit\outsidersummons.dbr<BR>records\skills\spirit\pet\etherlord01～20.dbr</TD>
+                                                                            <TD class="spirit" height="50">1 召唤上限</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">20. 神秘气流<BR>Arcane Blast</TD>
+                                                                            <TD class="spirit" height="50">宠物技能、攻击、投射、多重投射<BR>SkillSecondary_PetModifier<BR>Skill_AttackProjectileBurst</TD>
+                                                                            <TD class="spirit" height="50">records\skills\spirit\wraithlord_petmodifier_arcaneblast.dbr<BR>records\skills\spirit\wraithlord_petskill_arcaneblast.dbr</TD>
+                                                                            <TD class="spirit" height="50">9.0～22.0 分散角度</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">21. 汲取灵魂<BR>Soul Drain</TD>
+                                                                            <TD class="spirit" height="50">连锁技能、攻击、范围<BR>SkillSecondary_AttackRadius</TD>
+                                                                            <TD class="spirit" height="50">records\xpack3\skills\allmasteries\spirt_cascade_voids.dbr</TD>
+                                                                            <TD class="spirit" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="spirit" height="50">22. 灵魂漩涡<BR>Soul Vortex</TD>
+                                                                            <TD class="spirit" height="50"><font color=red>光环</font>、攻击、范围<BR>Skill_BuffAttackRadiusDuration</TD>
+                                                                            <TD class="spirit" height="50">records\xpack3\skills\allmasteries\spirt_soulvortex.dbr</TD>
+                                                                            <TD class="spirit" height="50"></TD>
+                                                                        </TR>
+
+                                                                        <TR>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>技能名称</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>技能类别</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>数据库文件</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>武器需求 & 技能备注</FONT></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">六、防御专精<BR>Defense Mastery</TD>
+                                                                            <TD class="defense" height="50">专精<BR>Skill_Mastery</TD>
+                                                                            <TD class="defense" height="50">records\skills\defensive\defensivemastery.dbr</TD>
+                                                                            <TD class="defense" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">1. 震荡打击<BR>Concussive Blow</TD>
+                                                                            <TD class="defense" height="50">强化、被动<BR>Skill_Passive</TD>
+                                                                            <TD class="defense" height="50">records\skills\defensive\concussiveblow.dbr</TD>
+                                                                            <TD class="defense" height="50">斧、锤</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">2. 战斗警觉<BR>Battle Awareness</TD>
+                                                                            <TD class="defense" height="50">光环、范围、开关切换、强化<BR>Skill_BuffRadiusToggled<BR>SkillBuff_Passive</TD>
+                                                                            <TD class="defense" height="50">records\skills\defensive\battleawareness.dbr<BR>records\skills\defensive\battleawarenessbuff.dbr</TD>
+                                                                            <TD class="defense" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">3. 盾击<BR>Batter</TD>
+                                                                            <TD class="defense" height="50">攻击、武器<BR>Skill_AttackWeapon</TD>
+                                                                            <TD class="defense" height="50">records\skills\defensive\batter.dbr</TD>
+                                                                            <TD class="defense" height="50">盾（仅近战有效）<BR>5.0～0.0 嘲弄</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">4. 盔甲掌握<BR>Armor Handling</TD>
+                                                                            <TD class="defense" height="50">强化、被动<BR>Skill_Passive</TD>
+                                                                            <TD class="defense" height="50">records\skills\defensive\armorhandling.dbr</TD>
+                                                                            <TD class="defense" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">5. 肾上腺素<BR>Adrenaline</TD>
+                                                                            <TD class="defense" height="50">强化、被动发动<BR>Skill_PassiveOnHitBuffSelf</TD>
+                                                                            <TD class="defense" height="50">records\skills\defensive\adrenaline.dbr</TD>
+                                                                            <TD class="defense" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">6. 重整旗鼓<BR>Rally</TD>
+                                                                            <TD class="defense" height="50">光环、范围、强化<BR>Skill_BuffRadius<BR>SkillBuff_Passive</TD>
+                                                                            <TD class="defense" height="50">records\skills\defensive\rally.dbr<BR>records\skills\defensive\rallybuff.dbr</TD>
+                                                                            <TD class="defense" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">7. 快速防御<BR>Quick Recovery</TD>
+                                                                            <TD class="defense" height="50">强化<BR>Skill_BuffSelfDuration</TD>
+                                                                            <TD class="defense" height="50">records\skills\defensive\quickrecovery.dbr</TD>
+                                                                            <TD class="defense" height="50">盾</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">8. 英勇打击<BR>Shield Smash</TD>
+                                                                            <TD class="defense" height="50">攻击、武器、攻击触发<BR>Skill_WPAttack_BasicAttack</TD>
+                                                                            <TD class="defense" height="50">records\skills\defensive\weaponpool_shieldsmash.dbr</TD>
+                                                                            <TD class="defense" height="50">盾（仅近战有效）</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">9. 恢复力<BR>Resilience</TD>
+                                                                            <TD class="defense" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="defense" height="50">records\skills\defensive\adrenaline_resilience.dbr</TD>
+                                                                            <TD class="defense" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">10. 专注<BR>Focus</TD>
+                                                                            <TD class="defense" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="defense" height="50">records\skills\defensive\battleawareness_focus.dbr</TD>
+                                                                            <TD class="defense" height="50">盾</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">11. 盾牌冲击<BR>Shield Charge</TD>
+                                                                            <TD class="defense" height="50">攻击、武器、冲锋<BR>Skill_AttackWeaponCharge</TD>
+                                                                            <TD class="defense" height="50">records\skills\defensive\shieldcharge.dbr</TD>
+                                                                            <TD class="defense" height="50">盾（仅近战有效）</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">12. 灵感<BR>Inspiration</TD>
+                                                                            <TD class="defense" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="defense" height="50">records\skills\defensive\rally_inspiration.dbr</TD>
+                                                                            <TD class="defense" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">13. 碎甲<BR>Rend Armor</TD>
+                                                                            <TD class="defense" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="defense" height="50">records\skills\defensive\batter_rendarmor.dbr</TD>
+                                                                            <TD class="defense" height="50">盾</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">14. 压制<BR>Disable</TD>
+                                                                            <TD class="defense" height="50">攻击、武器、攻击触发<BR>Skill_WPAttack_BasicAttack</TD>
+                                                                            <TD class="defense" height="50">records\skills\defensive\weaponpool_disable.dbr</TD>
+                                                                            <TD class="defense" height="50">盾（仅近战有效）</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">15. 防守反击<BR>Defensive Reaction</TD>
+                                                                            <TD class="defense" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="defense" height="50">records\skills\defensive\adrenaline_defensivereaction.dbr</TD>
+                                                                            <TD class="defense" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">16. 钢铁意志<BR>Iron Will</TD>
+                                                                            <TD class="defense" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="defense" height="50">records\skills\defensive\battleawareness_ironwill.dbr</TD>
+                                                                            <TD class="defense" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">17. 打断<BR>Disruption</TD>
+                                                                            <TD class="defense" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="defense" height="50">records\skills\defensive\shieldcharge_disruption.dbr</TD>
+                                                                            <TD class="defense" height="50">盾<BR>12.0～30.0 嘲弄</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">18. 挑衅<BR>Defiance</TD>
+                                                                            <TD class="defense" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="defense" height="50">records\skills\defensive\rally_defiance.dbr</TD>
+                                                                            <TD class="defense" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">19. 巨人形态<BR>Colossus Form</TD>
+                                                                            <TD class="defense" height="50">强化、巨人<BR>Skill_BuffSelfColossus</TD>
+                                                                            <TD class="defense" height="50">records\skills\defensive\colossusform.dbr</TD>
+                                                                            <TD class="defense" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">20. 粉碎<BR>Pulverize</TD>
+                                                                            <TD class="defense" height="50">攻击、武器、攻击触发<BR>Skill_WPAttack_BasicAttack</TD>
+                                                                            <TD class="defense" height="50">records\skills\defensive\weaponpool_pulverize.dbr</TD>
+                                                                            <TD class="defense" height="50">盾（仅近战有效）</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">21. 坚定方阵<BR>Unyielding Phalanx</TD>
+                                                                            <TD class="defense" height="50">召唤、防护、地面<BR>Skill_DefensiveGround<BR>Guard</TD>
+                                                                            <TD class="defense" height="50">records\xpack3\skills\allmasteries\defense_summonphalanx.dbr<BR>records\xpack3\skills\allmasteries\pet\phalanx(01)～(12).dbr</TD>
+                                                                            <TD class="defense" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="defense" height="50">22. 完美格挡<BR>Perfect Block</TD>
+                                                                            <TD class="defense" height="50">强化、无懈可击<BR>Skill_BuffSelfInvulnerable</TD>
+                                                                            <TD class="defense" height="50">records\xpack3\skills\allmasteries\defense_activeblock.dbr</TD>
+                                                                            <TD class="defense" height="50">盾</TD>
+                                                                        </TR>
+
+                                                                        <TR>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>技能名称</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>技能类别</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>数据库文件</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>武器需求 & 技能备注</FONT></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">七、自然专精<BR>Nature Mastery</TD>
+                                                                            <TD class="nature" height="50">专精<BR>Skill_Mastery</TD>
+                                                                            <TD class="nature" height="50">records\skills\nature\naturemastery.dbr</TD>
+                                                                            <TD class="nature" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">1. 再生<BR>Regrowth</TD>
+                                                                            <TD class="nature" height="50">治疗<BR>Skill_GiveBonus</TD>
+                                                                            <TD class="nature" height="50">records\skills\nature\regrowth.dbr</TD>
+                                                                            <TD class="nature" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">2. 召唤精灵狼<BR>Call of the Wild</TD>
+                                                                            <TD class="nature" height="50"><font color=red>召唤、宠物</font><BR>Skill_SpawnPet<BR>Pet</TD>
+                                                                            <TD class="nature" height="50">records\skills\nature\wolfsummons.dbr<BR>records\skills\nature\pet\wolf_01～20.dbr</TD>
+                                                                            <TD class="nature" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">3. 橡木之心<BR>Heart of Oak</TD>
+                                                                            <TD class="nature" height="50">光环、范围、开关切换、强化<BR>Skill_BuffRadiusToggled<BR>SkillBuff_Passive</TD>
+                                                                            <TD class="nature" height="50">records\skills\nature\heartofoak.dbr<BR>records\skills\nature\heartofoakbuff.dbr</TD>
+                                                                            <TD class="nature" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">4. 加速生长<BR>Accelerated Growth</TD>
+                                                                            <TD class="nature" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="nature" height="50">records\skills\nature\regrowth_acceleratedgrowth.dbr</TD>
+                                                                            <TD class="nature" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">5. 抓破<BR>Maul</TD>
+                                                                            <TD class="nature" height="50">宠物技能、攻击、武器<BR>SkillSecondary_PetModifier<BR>Skill_AttackWeapon</TD>
+                                                                            <TD class="nature" height="50">records\skills\nature\wolf_petmodifer_maul.dbr<BR>records\skills\nature\wolf_skill_maul.dbr</TD>
+                                                                            <TD class="nature" height="50">4.0 秒 冷却</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">6. 瘟疫<BR>Plague</TD>
+                                                                            <TD class="nature" height="50">攻击、削弱、传染<BR>Skill_AttackBuff<BR>SkillBuff_Contageous</TD>
+                                                                            <TD class="nature" height="50">records\skills\nature\plague.dbr<BR>records\skills\nature\plaguebuff.dbr</TD>
+                                                                            <TD class="nature" height="50">每隔 1.5 秒传染一次<BR>4.0 米传染范围<BR>每生物每次最多传染 2 个生物<BR>每生物传染达到或超过 5 个生物后不再继续传染</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">7. 石楠木环<BR>Briar Ward</TD>
+                                                                            <TD class="nature" height="50"><font color=red>召唤、防护墙、障碍</font><BR>Skill_DefensiveWall<BR>DynamicBarrier</TD>
+                                                                            <TD class="nature" height="50">records\skills\nature\briarward.dbr<BR>records\skills\nature\pet\thornbush_01～20.dbr</TD>
+                                                                            <TD class="nature" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">8. 生存本能<BR>Survival Instinct</TD>
+                                                                            <TD class="nature" height="50">宠物技能、强化、生命监控<BR>SkillSecondary_PetModifier<BR>Skill_PassiveOnLifeBuffSelf</TD>
+                                                                            <TD class="nature" height="50">records\skills\nature\wolf_petmodifer_survivalinstinct.dbr<BR>records\skills\nature\wolf_petskill_survivalinstinct.dbr</TD>
+                                                                            <TD class="nature" height="50">15.0 秒 冷却</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">9. 疲劳<BR>Fatigue</TD>
+                                                                            <TD class="nature" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="nature" height="50">records\skills\nature\plague_fatigue.dbr</TD>
+                                                                            <TD class="nature" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">10. 水之宁静<BR>Tranquility of Water</TD>
+                                                                            <TD class="nature" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="nature" height="50">records\skills\nature\heartofoak_tranquility.dbr</TD>
+                                                                            <TD class="nature" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">11. 再生扩散<BR>Dissemination</TD>
+                                                                            <TD class="nature" height="50">连锁技能、治疗、闪电链式<BR>SkillSecondary_ChainBonus</TD>
+                                                                            <TD class="nature" height="50">records\skills\nature\regrowth_dissemination.dbr</TD>
+                                                                            <TD class="nature" height="50">100.0% 几率发生电弧式跳跃<BR>8.0 米最大跳跃间隔<BR>影响目标上限为3</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">12. 刺痛的荨麻<BR>Stinging Nettle</TD>
+                                                                            <TD class="nature" height="50">宠物技能、强化、被动<BR>SkillSecondary_PetModifier<BR>Skill_Passive</TD>
+                                                                            <TD class="nature" height="50">records\skills\nature\briarward_petmodifier_stingingnettle.dbr<BR>records\skills\nature\briarward_petskill_stingingnettle.dbr</TD>
+                                                                            <TD class="nature" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">13. 召唤仙女<BR>Sylvan Nymph</TD>
+                                                                            <TD class="nature" height="50"><font color=red>攻击、投射、召唤、宠物</font><BR>Skill_AttackProjectileSpawnPet<BR>Pet</TD>
+                                                                            <TD class="nature" height="50">records\skills\nature\sylvannymphsummons.dbr<BR>records\skills\nature\pet\sylvannymph_01～20.dbr</TD>
+                                                                            <TD class="nature" height="50">1.0 米范围<BR>1 召唤上限</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">14. 石之永恒<BR>Permanence of Stone</TD>
+                                                                            <TD class="nature" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="nature" height="50">records\skills\nature\heartofoak_permanence.dbr</TD>
+                                                                            <TD class="nature" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">15. 团队之力<BR>Strength of the Pack</TD>
+                                                                            <TD class="nature" height="50">宠物技能、光环、范围、强化<BR>SkillSecondary_PetModifier<BR>Skill_BuffRadius<BR>SkillBuff_Passive</TD>
+                                                                            <TD class="nature" height="50">records\skills\nature\wolf_petmodifier_strengthofthepack.dbr<BR>records\skills\nature\wolf_petskill_strengthofthepack.dbr<BR>records\skills\nature\wolf_petskill_strengthofthepackbuff.dbr</TD>
+                                                                            <TD class="nature" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">16. 繁茂之盾<BR>Overgrowth</TD>
+                                                                            <TD class="nature" height="50">宠物技能、光环、强化、吸收盾<BR>SkillSecondary_PetModifier<BR>Skill_BuffOther<BR>SkillBuff_PassiveShield</TD>
+                                                                            <TD class="nature" height="50">records\skills\nature\sylvannymph_petmodifier_overgrowth.dbr<BR>records\skills\nature\sylvannymph_petskill_overgrowth.dbr<BR>records\skills\nature\sylvannymph_petskill_overgrowthbuff.dbr</TD>
+                                                                            <TD class="nature" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">17. 感受性<BR>Susceptibility</TD>
+                                                                            <TD class="nature" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="nature" height="50">records\skills\nature\plague_susceptibility.dbr</TD>
+                                                                            <TD class="nature" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">18. 气定神闲<BR>Refresh</TD>
+                                                                            <TD class="nature" height="50">冷却刷新<BR>Skill_RefreshCooldown</TD>
+                                                                            <TD class="nature" height="50">records\skills\nature\renewal.dbr</TD>
+                                                                            <TD class="nature" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">19. 丛林圣殿<BR>Sanctuary</TD>
+                                                                            <TD class="nature" height="50">连锁技能、光环、范围、强化<BR>SkillSecondary_BuffRadius<BR>SkillBuff_Passive</TD>
+                                                                            <TD class="nature" height="50">records\skills\nature\briarward_sanctuary.dbr<BR>records\skills\nature\briarward_sanctuarybuff.dbr</TD>
+                                                                            <TD class="nature" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">20. 自然之怒<BR>Nature's Wrath</TD>
+                                                                            <TD class="nature" height="50">宠物技能、攻击、投射<BR>SkillSecondary_PetModifier<BR>Skill_AttackProjectile</TD>
+                                                                            <TD class="nature" height="50">records\skills\nature\sylvannymph_petmodifier_nature'swrath.dbr<BR>records\skills\nature\sylvannymph_petskill_nature'swrath.dbr</TD>
+                                                                            <TD class="nature" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">21. 大地束缚<BR>Earthbind</TD>
+                                                                            <TD class="nature" height="50">攻击、范围<BR>Skill_AttackRadius</TD>
+                                                                            <TD class="nature" height="50">records\xpack3\skills\allmasteries\nature_earthbind.dbr</TD>
+                                                                            <TD class="nature" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="nature" height="50">22. 森林保护<BR>Sylvan Protection</TD>
+                                                                            <TD class="nature" height="50">宠物技能、攻击、波动<BR>SkillSecondary_PetModifier<BR>Skill_AttackWave</TD>
+                                                                            <TD class="nature" height="50">records\xpack3\skills\allmasteries\nature_nymph_petmodifier_rootwave.dbr<BR>records\xpack3\skills\allmasteries\nature_nymph_petskill_rootwave.dbr</TD>
+                                                                            <TD class="nature" height="50">7.0 米波动传播距离<BR>2.0～7.0 米波动宽度<BR>0.8 秒波动传播时间</TD>
+                                                                        </TR>
+
+                                                                        <TR>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>技能名称</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>技能类别</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>数据库文件</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>武器需求 & 技能备注</FONT></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">八、符文专精<BR>Runemaster Mastery</TD>
+                                                                            <TD class="rune" height="50">专精<BR>Skill_Mastery</TD>
+                                                                            <TD class="rune" height="50">records\xpack2\skills\runemaster\runemaster_mastery.dbr</TD>
+                                                                            <TD class="rune" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">1. 符文武器<BR>Rune Weapon</TD>
+                                                                            <TD class="rune" height="50">攻击、武器、蓄能、逐步释放<BR>Skill_WeaponPool_ChargedLinear</TD>
+                                                                            <TD class="rune" height="50">records\xpack2\skills\runemaster\runeweapon.dbr</TD>
+                                                                            <TD class="rune" height="50">剑、斧、弓、矛、锤、投掷武器<BR>2.2～0.9 秒蓄能持续时间</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">2. 符文之语：羽化<BR>Runeword: Feather</TD>
+                                                                            <TD class="rune" height="50">强化、被动<BR>Skill_Passive</TD>
+                                                                            <TD class="rune" height="50">records\xpack2\skills\runemaster\lightweight.dbr</TD>
+                                                                            <TD class="rune" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">3. 生命符文<BR>Rune of Life</TD>
+                                                                            <TD class="rune" height="50">光环、强化<BR>Skill_BuffOther<BR>SkillBuff_Passive</TD>
+                                                                            <TD class="rune" height="50">records\xpack2\skills\runemaster\liferune.dbr<BR>records\xpack2\skills\runemaster\liferune_buff.dbr</TD>
+                                                                            <TD class="rune" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">4. 魔法充能<BR>Magical Charge</TD>
+                                                                            <TD class="rune" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="rune" height="50">records\xpack2\skills\runemaster\runeweapon_bonus.dbr</TD>
+                                                                            <TD class="rune" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">5. 神圣狂暴<BR>Sacred Rage</TD>
+                                                                            <TD class="rune" height="50">强化、生命监控<BR>Skill_PassiveOnLifeBuffSelf</TD>
+                                                                            <TD class="rune" height="50">records\xpack2\skills\runemaster\shamanrage.dbr</TD>
+                                                                            <TD class="rune" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">6. 雷霆冲击<BR>Thunder Strike</TD>
+                                                                            <TD class="rune" height="50">攻击、武器、远程分散<BR>Skill_AttackWeaponRangedSpread</TD>
+                                                                            <TD class="rune" height="50">records\xpack2\skills\runemaster\arcattack.dbr</TD>
+                                                                            <TD class="rune" height="50">无武器需求</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">7. 符文地雷<BR>Runic Mines</TD>
+                                                                            <TD class="rune" height="50">防护、投射、环形、地面<BR>Skill_DefensiveProjectileGroundRing</TD>
+                                                                            <TD class="rune" height="50">records\xpack2\skills\runemaster\mines.dbr</TD>
+                                                                            <TD class="rune" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">8. 颤栗强力<BR>Frightening Power</TD>
+                                                                            <TD class="rune" height="50">连锁技能、攻击、范围<BR>SkillSecondary_AttackRadius</TD>
+                                                                            <TD class="rune" height="50">records\xpack2\skills\runemaster\shamanrage_frighten.dbr</TD>
+                                                                            <TD class="rune" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">9. 符文之语：爆破<BR>Runeword: Explode</TD>
+                                                                            <TD class="rune" height="50">攻击、武器、攻击触发<BR>Skill_WPAttack_BasicAttack</TD>
+                                                                            <TD class="rune" height="50">records\xpack2\skills\runemaster\explodingstrikes.dbr</TD>
+                                                                            <TD class="rune" height="50">无武器需求</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">10. 怒火喷发<BR>Unleash</TD>
+                                                                            <TD class="rune" height="50">连锁技能、攻击、范围<BR>SkillSecondary_AttackRadius</TD>
+                                                                            <TD class="rune" height="50">records\xpack2\skills\runemaster\arcattack_unleash.dbr</TD>
+                                                                            <TD class="rune" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">11. 巨碑之墙<BR>Menhir Wall</TD>
+                                                                            <TD class="rune" height="50">召唤、防护、地面、障碍<BR>Skill_DefensiveGround<BR>DynamicBarrier</TD>
+                                                                            <TD class="rune" height="50">records\xpack2\skills\runemaster\menhirwall.dbr<BR>records\xpack2\skills\runemaster\pet\wallstone(01～14).dbr</TD>
+                                                                            <TD class="rune" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">12. 能量吸取<BR>Energy Drain</TD>
+                                                                            <TD class="rune" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="rune" height="50">records\xpack2\skills\runemaster\runeweapon_sustain.dbr</TD>
+                                                                            <TD class="rune" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">13. 符文之语：燃烧<BR>Runeword: Burn</TD>
+                                                                            <TD class="rune" height="50">技能进阶、投射强化<BR>Skill_ProjectileModifier</TD>
+                                                                            <TD class="rune" height="50">records\xpack2\skills\runemaster\explodingstrikes_embers.dbr</TD>
+                                                                            <TD class="rune" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">14. 命运封印<BR>Seal of Fate</TD>
+                                                                            <TD class="rune" height="50">攻击、投射、范围<BR>Skill_AttackProjectileAreaEffect</TD>
+                                                                            <TD class="rune" height="50">records\xpack2\skills\runemaster\runecircle.dbr</TD>
+                                                                            <TD class="rune" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">15. 无忌狂击<BR>Reckless Offense</TD>
+                                                                            <TD class="rune" height="50">攻击、武器、攻击触发<BR>Skill_WPAttack_BasicAttack</TD>
+                                                                            <TD class="rune" height="50">records\xpack2\skills\runemaster\hailofaxes.dbr</TD>
+                                                                            <TD class="rune" height="50">剑、斧、锤、投掷武器（仅双持有效）<BR>剑、斧、锤之间可双持<BR>投掷武器之间可双持<BR>投掷武器与剑、斧、锤之间不能双持</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">16. 符文之语：吸收<BR>Runeword: Absorb</TD>
+                                                                            <TD class="rune" height="50">强化、被动<BR>Skill_Passive</TD>
+                                                                            <TD class="rune" height="50">records\xpack2\skills\runemaster\manaabsorb.dbr</TD>
+                                                                            <TD class="rune" height="50">杖、盾</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">17. 冰冻地雷<BR>Freezing Mines</TD>
+                                                                            <TD class="rune" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="rune" height="50">records\xpack2\skills\runemaster\mines_damage.dbr</TD>
+                                                                            <TD class="rune" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">18. 转化术<BR>Transmutation</TD>
+                                                                            <TD class="rune" height="50">强化、被动<BR>Skill_Passive</TD>
+                                                                            <TD class="rune" height="50">records\xpack2\skills\runemaster\runeweapon_conversion.dbr</TD>
+                                                                            <TD class="rune" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">19. 能量铠甲<BR>Energy Armor</TD>
+                                                                            <TD class="rune" height="50">光环、强化、吸收盾<BR>Skill_BuffOther<BR>SkillBuff_PassiveShield</TD>
+                                                                            <TD class="rune" height="50">records\xpack2\skills\runemaster\forceshield.dbr<BR>records\xpack2\skills\runemaster\forceshieldbuff.dbr</TD>
+                                                                            <TD class="rune" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">20. 余震之威<BR>Aftershock</TD>
+                                                                            <TD class="rune" height="50">连锁技能、攻击、范围<BR>SkillSecondary_AttackRadius</TD>
+                                                                            <TD class="rune" height="50">records\xpack2\skills\runemaster\runecircle_aftershock.dbr</TD>
+                                                                            <TD class="rune" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">21. 守护之石<BR>Guardian Stones</TD>
+                                                                            <TD class="rune" height="50">召唤、防护墙、宠物<BR>Skill_DefensiveWall<BR>Pet</TD>
+                                                                            <TD class="rune" height="50">records\xpack2\skills\runemaster\menhiraltar.dbr<BR>records\xpack2\skills\runemaster\pet\zapstone(01～16).dbr</TD>
+                                                                            <TD class="rune" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">22. 符文风暴<BR>Rune Storm</TD>
+                                                                            <TD class="rune" height="50"><font color=red>光环</font>、攻击、范围<BR>Skill_BuffAttackRadiusDuration</TD>
+                                                                            <TD class="rune" height="50">records\xpack3\skills\allmasteries\rune_magicmaelstrom.dbr</TD>
+                                                                            <TD class="rune" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rune" height="50">23. 符文领地<BR>Rune Field</TD>
+                                                                            <TD class="rune" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="rune" height="50">records\xpack3\skills\allmasteries\rune_mines_field.dbr</TD>
+                                                                            <TD class="rune" height="50"></TD>
+                                                                        </TR>
+
+                                                                        <TR>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>技能名称</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>技能类别</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>数据库文件</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>武器需求 & 技能备注</FONT></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">九、狩猎专精<BR>Hunting Mastery</TD>
+                                                                            <TD class="hunting" height="50">专精<BR>Skill_Mastery</TD>
+                                                                            <TD class="hunting" height="50">records\skills\hunting\huntingmastery.dbr</TD>
+                                                                            <TD class="hunting" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">1. 诱捕<BR>Ensnare</TD>
+                                                                            <TD class="hunting" height="50">攻击、投射、削弱、捕网<BR>Skill_AttackProjectileDebuf<BR>SkillBuff_DebufTrap</TD>
+                                                                            <TD class="hunting" height="50">records\skills\hunting\ensnare.dbr<BR>records\skills\hunting\ensnarebuff.dbr</TD>
+                                                                            <TD class="hunting" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">2. 猛刺<BR>Take Down</TD>
+                                                                            <TD class="hunting" height="50">攻击、武器、冲锋<BR>Skill_AttackWeaponCharge</TD>
+                                                                            <TD class="hunting" height="50">records\skills\hunting\takedown.dbr</TD>
+                                                                            <TD class="hunting" height="50">矛</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">3. 树木学识<BR>Wood Lore</TD>
+                                                                            <TD class="hunting" height="50">强化、被动<BR>Skill_Passive</TD>
+                                                                            <TD class="hunting" height="50">records\skills\hunting\woodlore.dbr</TD>
+                                                                            <TD class="hunting" height="50">弓、矛、投掷武器</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">4. 射术<BR>Marksmanship</TD>
+                                                                            <TD class="hunting" height="50">攻击、武器<BR>Skill_WeaponPool_BasicAttack</TD>
+                                                                            <TD class="hunting" height="50">records\skills\hunting\marksmanship.dbr</TD>
+                                                                            <TD class="hunting" height="50">弓、投掷武器</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">5. 狩猎艺术<BR>Art of the Hunt</TD>
+                                                                            <TD class="hunting" height="50">光环、范围、开关切换、强化<BR>Skill_BuffRadiusToggled<BR>SkillBuff_Passive</TD>
+                                                                            <TD class="hunting" height="50">records\skills\hunting\artofthehunt.dbr<BR>records\skills\hunting\artofthehuntbuff.dbr</TD>
+                                                                            <TD class="hunting" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">6. 草本治疗<BR>Herbal Remedy</TD>
+                                                                            <TD class="hunting" height="50">光环、强化<BR>Skill_BuffOther<BR>SkillBuff_Passive</TD>
+                                                                            <TD class="hunting" height="50">records\skills\hunting\herbalism.dbr<BR>records\skills\hunting\herbalism_buff.dbr</TD>
+                                                                            <TD class="hunting" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">7. 倒刺猎网<BR>Barbed Netting</TD>
+                                                                            <TD class="hunting" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="hunting" height="50">records\skills\hunting\ensnare_barbednetting.dbr</TD>
+                                                                            <TD class="hunting" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">8. 狩猎呼唤<BR>Call of the Hunt</TD>
+                                                                            <TD class="hunting" height="50">光环、范围、强化<BR>Skill_BuffRadius<BR>SkillBuff_Passive</TD>
+                                                                            <TD class="hunting" height="50">records\skills\hunting\callofthehunt.dbr<BR>records\skills\hunting\callofthehuntbuff.dbr</TD>
+                                                                            <TD class="hunting" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">9. 刨取内脏<BR>Eviscerate</TD>
+                                                                            <TD class="hunting" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="hunting" height="50">records\skills\hunting\takedown_eviscerate.dbr</TD>
+                                                                            <TD class="hunting" height="50">矛</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">10. 引诱<BR>Monster Lure</TD>
+                                                                            <TD class="hunting" height="50"><font color=red>召唤、宠物</font><BR>Skill_SpawnPet<BR>Pet</TD>
+                                                                            <TD class="hunting" height="50">records\skills\hunting\monsterlure.dbr<BR>records\skills\hunting\pet\monsterlure_01～10.dbr</TD>
+                                                                            <TD class="hunting" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">11. 狩猎大师<BR>Study Prey</TD>
+                                                                            <TD class="hunting" height="50">攻击、范围、削弱<BR>Skill_AttackBuffRadius<BR>SkillBuff_Debuf</TD>
+                                                                            <TD class="hunting" height="50">records\skills\hunting\studyprey.dbr<BR>records\skills\hunting\studypreybuff.dbr</TD>
+                                                                            <TD class="hunting" height="50">攻击时不附加种族伤害</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">12. 穿刺射击<BR>Puncture Shot Arrows</TD>
+                                                                            <TD class="hunting" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="hunting" height="50">records\skills\hunting\marksmanship_punctureshotarrows.dbr</TD>
+                                                                            <TD class="hunting" height="50">弓（注：无效）</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">13. 凿击<BR>Gouge</TD>
+                                                                            <TD class="hunting" height="50">攻击、武器、攻击触发<BR>Skill_WPAttack_BasicAttack</TD>
+                                                                            <TD class="hunting" height="50">records\skills\hunting\weaponskill_gouge.dbr</TD>
+                                                                            <TD class="hunting" height="50">弓、矛</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">14. 掩护<BR>Find Cover</TD>
+                                                                            <TD class="hunting" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="hunting" height="50">records\skills\hunting\artofthehunt_findcover.dbr</TD>
+                                                                            <TD class="hunting" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">15. 弱点攻击<BR>Exploit Weakness</TD>
+                                                                            <TD class="hunting" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="hunting" height="50">records\skills\hunting\callofthehunt_cunning.dbr</TD>
+                                                                            <TD class="hunting" height="50">矛（注：无效）</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">16. 踪迹燃烧<BR>Trail Blazing</TD>
+                                                                            <TD class="hunting" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="hunting" height="50">records\skills\hunting\artofthehunt_trailblazing.dbr</TD>
+                                                                            <TD class="hunting" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">17. 引爆<BR>Detonate</TD>
+                                                                            <TD class="hunting" height="50">宠物技能、攻击、投射、环型投射<BR>SkillSecondary_PetModifier<BR>Skill_AttackProjectileRing</TD>
+                                                                            <TD class="hunting" height="50">records\skills\hunting\monsterlure_petmodifier_detonate.dbr<BR>records\skills\hunting\monsterlure_petskill_detonate.dbr</TD>
+                                                                            <TD class="hunting" height="50">12.0 秒 冷却<BR>360.0 分散角度</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">18. 驱散敌手<BR>Flush Out</TD>
+                                                                            <TD class="hunting" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="hunting" height="50">records\skills\hunting\studyprey_flushout.dbr</TD>
+                                                                            <TD class="hunting" height="50">攻击时不附加种族伤害</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">19. 分散射击<BR>Scatter Shot Arrows</TD>
+                                                                            <TD class="hunting" height="50">技能进阶、投射强化<BR>Skill_ProjectileModifier</TD>
+                                                                            <TD class="hunting" height="50">records\skills\hunting\marksmanship_scattershotarrows.dbr</TD>
+                                                                            <TD class="hunting" height="50">弓（注：无效）</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">20. 齐射<BR>Volley</TD>
+                                                                            <TD class="hunting" height="50">攻击、武器、攻击触发<BR>Skill_WPAttack_BasicAttack</TD>
+                                                                            <TD class="hunting" height="50">records\skills\hunting\weaponskill_volley.dbr</TD>
+                                                                            <TD class="hunting" height="50">弓、矛、投掷武器</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">21. 精巧<BR>Finesse</TD>
+                                                                            <TD class="hunting" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="hunting" height="50">records\xpack3\skills\allmasteries\hunter_callofthehunt_crits.dbr</TD>
+                                                                            <TD class="hunting" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="hunting" height="50">22. 长矛之舞<BR>Spear Dance</TD>
+                                                                            <TD class="hunting" height="50">攻击、武器<BR>Skill_AttackWeapon</TD>
+                                                                            <TD class="hunting" height="50">records\xpack3\skills\allmasteries\hunter_speardance.dbr</TD>
+                                                                            <TD class="hunting" height="50">矛</TD>
+                                                                        </TR>
+
+                                                                        <TR>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>技能名称</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>技能类别</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>数据库文件</FONT></TD>
+                                                                            <TD class="header"><FONT face=Arial size=4 style="LINE-HEIGHT: 2" color=blue>武器需求 & 技能备注</FONT></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">十、盗贼专精<BR>Rogue Mastery</TD>
+                                                                            <TD class="rogue" height="50">专精<BR>Skill_Mastery</TD>
+                                                                            <TD class="rogue" height="50">records\skills\stealth\stealthmastery.dbr</TD>
+                                                                            <TD class="rogue" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">1. 预谋打击<BR>Calculated Strike</TD>
+                                                                            <TD class="rogue" height="50">攻击、武器、蓄能、最终释放<BR>Skill_WeaponPool_ChargedFinale</TD>
+                                                                            <TD class="rogue" height="50">records\skills\stealth\calculatedstrike.dbr</TD>
+                                                                            <TD class="rogue" height="50">剑、斧、弓、矛、锤、投掷武器<BR>6.0 秒蓄能持续时间</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">2. 刀刃之芒<BR>Blade Honing</TD>
+                                                                            <TD class="rogue" height="50">光环、范围、开关切换、强化<BR>Skill_BuffRadiusToggled<BR>SkillBuff_Passive</TD>
+                                                                            <TD class="rogue" height="50">records\skills\stealth\bladehoning.dbr<BR>records\skills\stealth\bladehoningbuff.dbr</TD>
+                                                                            <TD class="rogue" height="50">剑、斧、矛、投掷武器</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">3. 毒素武器<BR>Envenom Weapon</TD>
+                                                                            <TD class="rogue" height="50">强化、开关切换<BR>Skill_BuffSelfToggled</TD>
+                                                                            <TD class="rogue" height="50">records\skills\stealth\envenomweapon.dbr</TD>
+                                                                            <TD class="rogue" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">4. 投掷<BR>Throwing Knife</TD>
+                                                                            <TD class="rogue" height="50"><font color=red>攻击（类武器攻击）、投射、多重投射</font><BR>Skill_AttackProjectileBurst</TD>
+                                                                            <TD class="rogue" height="50">records\skills\stealth\throwingknife.dbr</TD>
+                                                                            <TD class="rogue" height="50">类武器攻击<BR>技能基础伤害、非武器装备基础伤害和强化自身型技能基础伤害都将被发动，武器基础伤害不会被发动</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">5. 解除陷阱<BR>Disarm Traps</TD>
+                                                                            <TD class="rogue" height="50">强化、被动<BR>Skill_Passive</TD>
+                                                                            <TD class="rogue" height="50">records\skills\stealth\disarmtraps.dbr</TD>
+                                                                            <TD class="rogue" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">6. 颠茄毒液<BR>Nightshade</TD>
+                                                                            <TD class="rogue" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="rogue" height="50">records\skills\stealth\envenomweapon_neurotoxin.dbr</TD>
+                                                                            <TD class="rogue" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">7. 致盲<BR>Flash Powder</TD>
+                                                                            <TD class="rogue" height="50">攻击、范围<BR>Skill_AttackRadius</TD>
+                                                                            <TD class="rogue" height="50">records\skills\stealth\flashpowder.dbr</TD>
+                                                                            <TD class="rogue" height="50">攻击时不附加种族伤害</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">8. 幸运一击<BR>Lucky Hit</TD>
+                                                                            <TD class="rogue" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="rogue" height="50">records\skills\stealth\calculatedstrike_luckyhit.dbr</TD>
+                                                                            <TD class="rogue" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">9. 割裂<BR>Open Wound</TD>
+                                                                            <TD class="rogue" height="50">强化、被动<BR>Skill_Passive</TD>
+                                                                            <TD class="rogue" height="50">records\skills\stealth\openwound.dbr</TD>
+                                                                            <TD class="rogue" height="50">剑、斧、弓、矛、投掷武器</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">10. 陷阱设置<BR>Lay Trap</TD>
+                                                                            <TD class="rogue" height="50"><font color=red>攻击、投射、召唤、宠物</font><BR>Skill_AttackProjectileSpawnPet<BR>Pet</TD>
+                                                                            <TD class="rogue" height="50">records\skills\stealth\laytrap.dbr<BR>records\skills\stealth\pet\bolttrap_01～20.dbr</TD>
+                                                                            <TD class="rogue" height="50">只能对准地面目标</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">11. 毒气弹<BR>Poison Gas Bomb</TD>
+                                                                            <TD class="rogue" height="50">攻击、投射<BR>Skill_AttackProjectile</TD>
+                                                                            <TD class="rogue" height="50">records\skills\stealth\poisongasbomb.dbr</TD>
+                                                                            <TD class="rogue" height="50">只能对准地面目标</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">12. 致死打击<BR>Lethal Strike</TD>
+                                                                            <TD class="rogue" height="50">攻击、武器<BR>Skill_AttackWeapon</TD>
+                                                                            <TD class="rogue" height="50">records\skills\stealth\lethalstrike.dbr</TD>
+                                                                            <TD class="rogue" height="50">剑、斧、弓、矛、投掷武器</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">13. 陷阱大师<BR>Rapid Construction</TD>
+                                                                            <TD class="rogue" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="rogue" height="50">records\skills\stealth\laytrap_rapidconstruction.dbr</TD>
+                                                                            <TD class="rogue" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">14. 毒素提取<BR>Toxin Distillation</TD>
+                                                                            <TD class="rogue" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="rogue" height="50">records\skills\stealth\toxindistillation.dbr</TD>
+                                                                            <TD class="rogue" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">15. 解剖学<BR>Anatomy</TD>
+                                                                            <TD class="rogue" height="50">强化、被动<BR>Skill_Passive</TD>
+                                                                            <TD class="rogue" height="50">records\skills\stealth\anatomy.dbr</TD>
+                                                                            <TD class="rogue" height="50">无武器需求</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">16. 曼德拉草<BR>Mandrake</TD>
+                                                                            <TD class="rogue" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="rogue" height="50">records\skills\stealth\envenomweapon_delirium.dbr</TD>
+                                                                            <TD class="rogue" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">17. 碎裂弹<BR>Shrapnel</TD>
+                                                                            <TD class="rogue" height="50">技能进阶、投射强化<BR>Skill_ProjectileModifier</TD>
+                                                                            <TD class="rogue" height="50">records\skills\stealth\poisongasbomb_shrapnel.dbr</TD>
+                                                                            <TD class="rogue" height="50"></TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">18. 致命创伤<BR>Mortal Wound</TD>
+                                                                            <TD class="rogue" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="rogue" height="50">records\skills\stealth\lethalstrike_mortalwound.dbr</TD>
+                                                                            <TD class="rogue" height="50">无武器需求</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">19. 刀阵<BR>Flurry of Knives</TD>
+                                                                            <TD class="rogue" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="rogue" height="50">records\skills\stealth\throwingknife_flurryofknives.dbr</TD>
+                                                                            <TD class="rogue" height="50">9.0～36.0 分散角度</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">20. 陷阱强化<BR>Improved Firing Mechanism</TD>
+                                                                            <TD class="rogue" height="50">宠物技能、技能进阶<BR>SkillSecondary_PetModifier<BR>Skill_Modifier</TD>
+                                                                            <TD class="rogue" height="50">records\skills\stealth\laytrap_petmodifier_multishotbolttrap.dbr<BR>records\skills\stealth\laytrap_petskill_multishotbolttrap.dbr</TD>
+                                                                            <TD class="rogue" height="50">360.0 分散角度</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">21. 刀刃屏障<BR>Blade Barrier</TD>
+                                                                            <TD class="rogue" height="50">防护、投射、地面、环形<BR>Skill_DefensiveProjectileGroundRing</TD>
+                                                                            <TD class="rogue" height="50">records\xpack3\skills\allmasteries\rogue_bladebarrier.dbr</TD>
+                                                                            <TD class="rogue" height="50">类武器攻击<BR>2.5 米范围</TD>
+                                                                        </TR>
+                                                                        <TR>
+                                                                            <TD class="rogue" height="50">22. 剧毒之乱<BR>Poison Mayhem</TD>
+                                                                            <TD class="rogue" height="50">技能进阶<BR>Skill_Modifier</TD>
+                                                                            <TD class="rogue" height="50">records\xpack3\skills\allmasteries\rogue_poisongasbomb_spread.dbr</TD>
+                                                                            <TD class="rogue" height="50"></TD>
+                                                                        </TR>
+
+                                                                    </TABLE>
+
+                                                                </TABLE>
+                                                            </td>
+                                                        </tr>
+                                                    </table></td>
+                                            </tr>
+                                            <tr> 
+                                                <td width="100%" height="27" bgcolor="#F7F7F7">
+                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                        <tr> 
+                                                            <td width="61%"><p class="9"><font color="#CCCCCC">&nbsp;</font></font></td>
+                                                            <td width="39%"><p align="right" class="9"><a href="preface.htm">[返回]</a>&ensp;</td>
+                                                        </tr>
+                                                    </table></td>
+                                            </tr>
+                                        </table></td>
+                                </tr>
+                            </table>
+                            <table cellpadding="0" cellspacing="0" width="1280" height="47">
+                                <!-- MSTableType="layout" -->
+                                <tr>
+                                    <td valign="top" align="center" height="47" width="1280">
+                                    <img border="0" src="Preface_files/TQAEA%20frontpage%20bottom.png" width="1280" height="47"></td>
+                                </tr>
+                            </table>
+                        </center>
+                    </div></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</HTML>
